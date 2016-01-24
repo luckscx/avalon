@@ -1,8 +1,8 @@
 local skynet = require "skynet"
 local log = require "log"
 
-local MAXROOM = 4096
-local MAXROOMID = 999999
+local MAXROOM = 1024
+local MAXROOMID = 9999
 local house = { n = 0 }
 local roomkeeper = {}
 

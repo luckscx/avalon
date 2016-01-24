@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", function(){
         });
 
         Ejoy('room_rule').on('click', 'rule_item', function(select_dom){
-            var rule_num = select_dom.dataset.rule
+            var rule_num = select_dom.dataset.rule;
             var enabled  = !(select_dom.className.indexOf("rule_enabled") > -1)
 
             if(enabled){
@@ -175,7 +175,7 @@ document.addEventListener("DOMContentLoaded", function(){
         Ejoy('action_button').on('click', function(e){
             var name = e.target.previousElementSibling.value
             if(!name){
-                return alert("请输入名字");
+                return alert("请输入一个新名字");
             }
             set_user_name(name)
         })
