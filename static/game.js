@@ -10,6 +10,9 @@ var AvalonGame = function(){
     }
 }
 
+/* global room_number: false */
+/* global version: true */
+
 AvalonGame.fn = AvalonGame.prototype = {constructor: AvalonGame};
 
 AvalonGame.fn.begin = function(resp){
@@ -53,17 +56,17 @@ AvalonGame.fn.update_game = function (v) {
             return
         }
 
-        if (version != 0 && version == resp.version) {
+        if (version !== 0 && version == resp.version) {
             console.log(">>> continue update_game")
             return self.update_game(version)
         }
         
-        gameinfo = resp.gameinfo
+        var gameinfo = resp.gameinfo
         version = resp.version
         self.update_info(resp)
 
-        Ejoy("stage_title").html("共" + resp.evil_count + "个反方")
-        Ejoy("stage_desc").html("第 "+ resp.gameinfo.round + " 个任务, 第 " + resp.gameinfo.pass + " 次提案" )
+        Ejoy("stage_title").html("共" + resp.evil_count + "个反方");
+        Ejoy("stage_desc").html("第 "+ resp.gameinfo.round + " 个任务, 第 " + resp.gameinfo.pass + " 次提案" );
 
         if (resp.gameinfo.history) {
             var hist = ""
@@ -73,35 +76,42 @@ AvalonGame.fn.update_game = function (v) {
             Ejoy("game-history").html(hist)
         }
 
+        var show_btn = function(showTabName) {
+            document.getElementsByClassName('stage-action')[0].style.display = "none";
+            document.getElementsByClassName('vote-action')[0].style.display = "none";
+            document.getElementsByClassName('boom-action')[0].style.display = "none";
+            if (showTabName && showTabName.length > 0 ) {
+                document.getElementsByClassName(showTabName)[0].style.display = "block";
+            }
+        };
+
         if (resp.gameinfo.mode == "plan") {
             self.render_players(resp.players, resp.gameinfo.stage)
             if (userid == resp.gameinfo.leader) {
                 var info = resp.gameinfo
-                var prompt = "请选出 " + Math.abs(info.need) + " 人";
+                var promptStr = "请选出 " + Math.abs(info.need) + " 人";
                 if (info.need < 0) {
-                    prompt += "(本次任务失败需至少两次反对票)"
+                    promptStr += "(本次任务失败需至少两次反对票)"
                 }
-                Ejoy("stage_prompt").html(prompt)
-                document.getElementsByClassName('stage-action')[0].style.display = "block"
-                document.getElementsByClassName('vote-action')[0].style.display = "none"
+                Ejoy("stage_prompt").html(promptStr)
+                show_btn('stage-action');
                 return
             } else {
-                var info = resp.gameinfo
-                document.getElementsByClassName('stage-action')[0].style.display = "none"
-                document.getElementsByClassName('vote-action')[0].style.display = "none"
+                var info = resp.gameinfo;
+                show_btn('');
 
-                var leader
+                var leader;
                 for (var i=0;i<resp.players.length;i++) {
                     if (resp.players[i].userid == info.leader) {
                         leader = resp.players[i]
                         break
                     }
                 }
-                var prompt = leader.username + " 正在准备" + Math.abs(gameinfo.need) + "人提案."
+                var promptStr = leader.username + " 正在准备" + Math.abs(gameinfo.need) + "人提案."
                 if (info.need < 0) {
-                    prompt += "(本次任务失败需至少两次反对票)"
+                    promptStr += "(本次任务失败需至少两次反对票)"
                 }
-                Ejoy("stage_prompt").html(prompt)
+                Ejoy("stage_prompt").html(promptStr)
 
                 self.wait()
             }
@@ -117,24 +127,22 @@ AvalonGame.fn.update_game = function (v) {
             }
 
             Ejoy("stage_prompt").html("请表决 " + leader.username + " 的提案")
-            document.getElementsByClassName("vote-action")[0].style.display = "block"
-            document.getElementsByClassName("stage-action")[0].style.display = "none"
+            show_btn('vote-action');
             self.render_players(resp.players, resp.gameinfo.stage)
             return
         }
 
         if (resp.gameinfo.mode == "quest") {
-            document.getElementsByClassName("stage-action")[0].style.display = "none"
             self.render_players(resp.players, resp.gameinfo.stage)
 
             if (resp.gameinfo.stage.indexOf(userid) == -1) {
                 Ejoy("stage_prompt").html("请等待投票结果")
-                document.getElementsByClassName("vote-action")[0].style.display = "none"
-                self.wait()
+                show_btn('');
+                self.wait();
             } else {
                 Ejoy("stage_prompt").html("请投票决定任务成功或失败")
-                document.getElementsByClassName("vote-action")[0].style.display = "block"
-                return
+                show_btn('boom-action');
+                return;
             }
         }
 
