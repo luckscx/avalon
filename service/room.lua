@@ -99,7 +99,10 @@ local function gameinfo(userid)
         return {error = "您未分配角色"}
     end
     local identity_name = rule.role[u.identity]
+    log.printf('idname %s',identity_name);
     local role_visible = rule.visible[u.identity]
+    log.printf('role_visible:');
+    log.print_r(role_visible);
     local tmp_information = {}
     for _, u in pairs(R.info.user_tbl) do
         local visible = role_visible[u.identity]
@@ -109,10 +112,13 @@ local function gameinfo(userid)
                 identity_name = rule.role[u.identity]
             elseif visible == 4 then
                 identity_name = rule.camp_name[u.identity]
+            elseif visible == 5 then
+                identity_name = rule.show_name[u.identity] 
             elseif visible == 3 and R.info.rules[8] then
                 identity_name = rule.role[u.identity]
             end
             if identity_name then
+                log.printf('get visibal idname_res %s',identity_name);
                 table.insert(tmp_information, {username = u.username, identity = identity_name})
             end
         end
@@ -312,9 +318,9 @@ function api.begin_game(args)
         }
     end
 
-    for k,v in pairs(R.info.rules) do
-        print(":::",k,v)
-    end
+    --for k,v in pairs(R.info.rules) do
+        --print(":::",k,v)
+    --end
     return roominfo(userid)
 end
 
@@ -468,7 +474,6 @@ function room.api(args)
 	if not f then
 		return {error = "Invalid Action"}
 	end
-    print("request", args.action)
 	if args.status ~= R.status then
 		-- todo push status
 		return roominfo(args.userid)

@@ -12,6 +12,7 @@ var AvalonGame = function(){
 
 /* global room_number: false */
 /* global version: true */
+/* global gameinfo: true */
 
 AvalonGame.fn = AvalonGame.prototype = {constructor: AvalonGame};
 
@@ -61,7 +62,8 @@ AvalonGame.fn.update_game = function (v) {
             return self.update_game(version)
         }
         
-        var gameinfo = resp.gameinfo
+        gameinfo = resp.gameinfo
+        console.log(gameinfo);
         version = resp.version
         self.update_info(resp)
 

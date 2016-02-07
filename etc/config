@@ -1,5 +1,5 @@
 thread = 8
---logger = "log/main.log"
+logger = "logs/main.log"
 logpath = "log"
 harbor = 0
 start = "main"

@@ -1,0 +1,5148 @@
+[:00000001] LAUNCH logger logs/main.log
+[:00000002] LAUNCH snlua bootstrap
+[:00000003] LAUNCH snlua launcher
+[:00000004] LAUNCH snlua cdummy
+[:00000005] LAUNCH harbor 0 4
+[:00000006] LAUNCH snlua datacenterd
+[:00000007] LAUNCH snlua service_mgr
+[:00000008] LAUNCH snlua main
+[:00000009] LAUNCH snlua debug_console 8000
+[:00000009] Start debug console at 127.0.0.1 8000
+[:0000000a] LAUNCH snlua roomkeeper
+[:0000000b] LAUNCH snlua broker
+[:0000000c] LAUNCH snlua userid
+[:0000000d] LAUNCH snlua lobby
+[:0000000e] LAUNCH snlua broker
+[:0000000f] LAUNCH snlua broker
+[:00000010] LAUNCH snlua broker
+[:00000011] LAUNCH snlua broker
+[:00000012] LAUNCH snlua broker
+[:00000013] LAUNCH snlua broker
+[:00000014] LAUNCH snlua broker
+[:00000008] Listening 0.0.0.0:8888
+[:00000002] KILL self
+[:0000000b] [2016-02-07 11:02:03] new access 34807118 u34807118
+[:0000000b] [2016-02-07 11:02:03] action /lobby
+[:0000000b] [2016-02-07 11:02:03] body table:
+[:0000000b] [2016-02-07 11:02:03] {
+  action = "getname",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:02:03] new access 34807118 u34807118
+[:0000000e] [2016-02-07 11:02:03] action /lobby
+[:0000000e] [2016-02-07 11:02:03] body table:
+[:0000000e] [2016-02-07 11:02:03] {
+  action = "create",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000015] LAUNCH snlua room
+[:00000015] [2016-02-07 11:02:03] [Room:936] open
+[:0000000f] [2016-02-07 11:02:04] new access 34807118 u34807118
+[:0000000f] [2016-02-07 11:02:04] action /936
+[:0000000f] [2016-02-07 11:02:04] body table:
+[:0000000f] [2016-02-07 11:02:04] ""
+[:00000014] [2016-02-07 11:02:04] new access 34807118 u34807118
+[:00000014] [2016-02-07 11:02:04] action /room
+[:00000014] [2016-02-07 11:02:04] body table:
+[:00000014] [2016-02-07 11:02:04] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:02:05] new access 34807118 u34807118
+[:0000000b] [2016-02-07 11:02:05] action /room
+[:0000000b] [2016-02-07 11:02:05] body table:
+[:0000000b] [2016-02-07 11:02:05] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 3,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:02:07] new access 34807118 u34807118
+[:0000000e] [2016-02-07 11:02:07] action /room
+[:0000000e] [2016-02-07 11:02:07] body table:
+[:0000000e] [2016-02-07 11:02:07] {
+  action = "setname",
+  roomid = 936,
+  status = "prepare",
+  username = "u34807118",
+  version = 3,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:02:07] new access 34807118 u34807118
+[:0000000f] [2016-02-07 11:02:07] action /room
+[:0000000f] [2016-02-07 11:02:07] body table:
+[:0000000f] [2016-02-07 11:02:07] {
+  action = "ready",
+  enable = true,
+  roomid = 936,
+  status = "prepare",
+  version = 3,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:02:07] new access 34807118 u34807118
+[:00000010] [2016-02-07 11:02:07] action /room
+[:00000010] [2016-02-07 11:02:07] body table:
+[:00000010] [2016-02-07 11:02:07] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 4,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:02:07] new access 34807118 u34807118
+[:00000011] [2016-02-07 11:02:07] action /room
+[:00000011] [2016-02-07 11:02:07] body table:
+[:00000011] [2016-02-07 11:02:07] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:02:08] new access 34807118 u34807118
+[:00000012] [2016-02-07 11:02:08] action /room
+[:00000012] [2016-02-07 11:02:08] body table:
+[:00000012] [2016-02-07 11:02:08] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 4,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:02:10] new access 34812148 u34812148
+[:00000013] [2016-02-07 11:02:10] action /936
+[:00000013] [2016-02-07 11:02:10] body table:
+[:00000013] [2016-02-07 11:02:10] ""
+[:00000014] [2016-02-07 11:02:10] new access 34807118 u34807118
+[:00000014] [2016-02-07 11:02:10] action /room
+[:00000014] [2016-02-07 11:02:10] body table:
+[:00000014] [2016-02-07 11:02:10] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 5,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:02:11] new access 34812148 u34812148
+[:00000011] [2016-02-07 11:02:11] action /room
+[:00000011] [2016-02-07 11:02:11] body table:
+[:00000011] [2016-02-07 11:02:11] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:02:12] new access 34812148 u34812148
+[:00000012] [2016-02-07 11:02:12] action /room
+[:00000012] [2016-02-07 11:02:12] body table:
+[:00000012] [2016-02-07 11:02:12] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 5,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:02:12] new access 34812148 u34812148
+[:00000013] [2016-02-07 11:02:12] action /room
+[:00000013] [2016-02-07 11:02:12] body table:
+[:00000013] [2016-02-07 11:02:12] {
+  action = "setname",
+  roomid = 936,
+  status = "prepare",
+  username = "u34812148",
+  version = 5,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:02:13] new access 34812148 u34812148
+[:00000014] [2016-02-07 11:02:13] action /room
+[:00000014] [2016-02-07 11:02:13] body table:
+[:00000014] [2016-02-07 11:02:13] {
+  action = "ready",
+  enable = true,
+  roomid = 936,
+  status = "prepare",
+  version = 5,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:02:13] new access 34807118 u34807118
+[:0000000b] [2016-02-07 11:02:13] action /room
+[:0000000b] [2016-02-07 11:02:13] body table:
+[:0000000b] [2016-02-07 11:02:13] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 6,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:02:13] new access 34812148 u34812148
+[:0000000e] [2016-02-07 11:02:13] action /room
+[:0000000e] [2016-02-07 11:02:13] body table:
+[:0000000e] [2016-02-07 11:02:13] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:02:13] new access 34812148 u34812148
+[:0000000f] [2016-02-07 11:02:13] action /room
+[:0000000f] [2016-02-07 11:02:13] body table:
+[:0000000f] [2016-02-07 11:02:13] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 6,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:02:15] new access 34812160 u34812160
+[:00000010] [2016-02-07 11:02:15] action /936
+[:00000010] [2016-02-07 11:02:15] body table:
+[:00000010] [2016-02-07 11:02:15] ""
+[:00000012] [2016-02-07 11:02:15] new access 34807118 u34807118
+[:00000012] [2016-02-07 11:02:15] action /room
+[:00000012] [2016-02-07 11:02:15] body table:
+[:00000012] [2016-02-07 11:02:15] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 7,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:02:15] new access 34812148 u34812148
+[:00000013] [2016-02-07 11:02:15] action /room
+[:00000013] [2016-02-07 11:02:15] body table:
+[:00000013] [2016-02-07 11:02:15] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 7,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:02:15] new access 34812160 u34812160
+[:0000000f] [2016-02-07 11:02:15] action /room
+[:0000000f] [2016-02-07 11:02:15] body table:
+[:0000000f] [2016-02-07 11:02:15] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:02:15] new access 34812160 u34812160
+[:00000010] [2016-02-07 11:02:15] action /room
+[:00000010] [2016-02-07 11:02:15] body table:
+[:00000010] [2016-02-07 11:02:15] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 7,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:02:16] new access 34812160 u34812160
+[:00000011] [2016-02-07 11:02:16] action /room
+[:00000011] [2016-02-07 11:02:16] body table:
+[:00000011] [2016-02-07 11:02:16] {
+  action = "setname",
+  roomid = 936,
+  status = "prepare",
+  username = "u34812160",
+  version = 7,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:02:17] new access 34812160 u34812160
+[:00000012] [2016-02-07 11:02:17] action /room
+[:00000012] [2016-02-07 11:02:17] body table:
+[:00000012] [2016-02-07 11:02:17] {
+  action = "ready",
+  enable = true,
+  roomid = 936,
+  status = "prepare",
+  version = 7,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:02:17] new access 34807118 u34807118
+[:00000013] [2016-02-07 11:02:17] action /room
+[:00000013] [2016-02-07 11:02:17] body table:
+[:00000013] [2016-02-07 11:02:17] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 8,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:02:17] new access 34812160 u34812160
+[:00000014] [2016-02-07 11:02:17] action /room
+[:00000014] [2016-02-07 11:02:17] body table:
+[:00000014] [2016-02-07 11:02:17] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 8,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:02:17] new access 34812160 u34812160
+[:0000000b] [2016-02-07 11:02:17] action /room
+[:0000000b] [2016-02-07 11:02:17] body table:
+[:0000000b] [2016-02-07 11:02:17] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:02:17] new access 34812148 u34812148
+[:0000000e] [2016-02-07 11:02:17] action /room
+[:0000000e] [2016-02-07 11:02:17] body table:
+[:0000000e] [2016-02-07 11:02:17] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 8,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:02:18] new access 34812160 u34812160
+[:0000000f] [2016-02-07 11:02:18] action /room
+[:0000000f] [2016-02-07 11:02:18] body table:
+[:0000000f] [2016-02-07 11:02:18] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 8,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:02:19] new access 34812223 u34812223
+[:00000010] [2016-02-07 11:02:19] action /936
+[:00000010] [2016-02-07 11:02:19] body table:
+[:00000010] [2016-02-07 11:02:19] ""
+[:00000011] [2016-02-07 11:02:19] new access 34807118 u34807118
+[:00000011] [2016-02-07 11:02:19] action /room
+[:00000011] [2016-02-07 11:02:19] body table:
+[:00000011] [2016-02-07 11:02:19] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 9,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:02:19] new access 34812148 u34812148
+[:00000012] [2016-02-07 11:02:19] action /room
+[:00000012] [2016-02-07 11:02:19] body table:
+[:00000012] [2016-02-07 11:02:19] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 9,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:02:19] new access 34812160 u34812160
+[:00000013] [2016-02-07 11:02:19] action /room
+[:00000013] [2016-02-07 11:02:19] body table:
+[:00000013] [2016-02-07 11:02:19] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 9,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:02:19] new access 34812223 u34812223
+[:00000010] [2016-02-07 11:02:19] action /room
+[:00000010] [2016-02-07 11:02:19] body table:
+[:00000010] [2016-02-07 11:02:19] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:02:20] new access 34812223 u34812223
+[:00000011] [2016-02-07 11:02:20] action /room
+[:00000011] [2016-02-07 11:02:20] body table:
+[:00000011] [2016-02-07 11:02:20] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 9,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:02:20] new access 34812223 u34812223
+[:00000012] [2016-02-07 11:02:20] action /room
+[:00000012] [2016-02-07 11:02:20] body table:
+[:00000012] [2016-02-07 11:02:20] {
+  action = "setname",
+  roomid = 936,
+  status = "prepare",
+  username = "u34812223",
+  version = 9,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:02:21] new access 34812223 u34812223
+[:00000013] [2016-02-07 11:02:21] action /room
+[:00000013] [2016-02-07 11:02:21] body table:
+[:00000013] [2016-02-07 11:02:21] {
+  action = "ready",
+  enable = true,
+  roomid = 936,
+  status = "prepare",
+  version = 9,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:02:21] new access 34812223 u34812223
+[:00000014] [2016-02-07 11:02:21] action /room
+[:00000014] [2016-02-07 11:02:21] body table:
+[:00000014] [2016-02-07 11:02:21] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:02:21] new access 34812160 u34812160
+[:0000000b] [2016-02-07 11:02:21] action /room
+[:0000000b] [2016-02-07 11:02:21] body table:
+[:0000000b] [2016-02-07 11:02:21] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 10,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:02:21] new access 34807118 u34807118
+[:0000000e] [2016-02-07 11:02:21] action /room
+[:0000000e] [2016-02-07 11:02:21] body table:
+[:0000000e] [2016-02-07 11:02:21] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 10,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:02:21] new access 34812223 u34812223
+[:0000000f] [2016-02-07 11:02:21] action /room
+[:0000000f] [2016-02-07 11:02:21] body table:
+[:0000000f] [2016-02-07 11:02:21] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 10,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:02:21] new access 34812148 u34812148
+[:00000010] [2016-02-07 11:02:21] action /room
+[:00000010] [2016-02-07 11:02:21] body table:
+[:00000010] [2016-02-07 11:02:21] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 10,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:02:23] new access 34812302 u34812302
+[:00000011] [2016-02-07 11:02:23] action /936
+[:00000011] [2016-02-07 11:02:23] body table:
+[:00000011] [2016-02-07 11:02:23] ""
+[:00000012] [2016-02-07 11:02:23] new access 34812160 u34812160
+[:00000012] [2016-02-07 11:02:23] action /room
+[:00000012] [2016-02-07 11:02:23] body table:
+[:00000012] [2016-02-07 11:02:23] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 11,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:02:23] new access 34807118 u34807118
+[:00000014] [2016-02-07 11:02:23] action /room
+[:00000014] [2016-02-07 11:02:23] body table:
+[:00000014] [2016-02-07 11:02:23] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 11,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:02:23] new access 34812223 u34812223
+[:0000000b] [2016-02-07 11:02:23] action /room
+[:0000000b] [2016-02-07 11:02:23] body table:
+[:0000000b] [2016-02-07 11:02:23] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 11,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:02:23] new access 34812148 u34812148
+[:00000010] [2016-02-07 11:02:23] action /room
+[:00000010] [2016-02-07 11:02:23] body table:
+[:00000010] [2016-02-07 11:02:23] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 11,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:02:24] new access 34812302 u34812302
+[:00000012] [2016-02-07 11:02:24] action /room
+[:00000012] [2016-02-07 11:02:24] body table:
+[:00000012] [2016-02-07 11:02:24] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:02:24] new access 34812302 u34812302
+[:00000013] [2016-02-07 11:02:24] action /room
+[:00000013] [2016-02-07 11:02:24] body table:
+[:00000013] [2016-02-07 11:02:24] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 11,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:02:25] new access 34812302 u34812302
+[:00000014] [2016-02-07 11:02:25] action /room
+[:00000014] [2016-02-07 11:02:25] body table:
+[:00000014] [2016-02-07 11:02:25] {
+  action = "setname",
+  roomid = 936,
+  status = "prepare",
+  username = "u34812302",
+  version = 11,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:02:25] new access 34812302 u34812302
+[:0000000b] [2016-02-07 11:02:25] action /room
+[:0000000b] [2016-02-07 11:02:25] body table:
+[:0000000b] [2016-02-07 11:02:25] {
+  action = "ready",
+  enable = true,
+  roomid = 936,
+  status = "prepare",
+  version = 11,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:02:25] new access 34812302 u34812302
+[:0000000e] [2016-02-07 11:02:25] action /room
+[:0000000e] [2016-02-07 11:02:25] body table:
+[:0000000e] [2016-02-07 11:02:25] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:02:25] new access 34807118 u34807118
+[:0000000f] [2016-02-07 11:02:25] action /room
+[:0000000f] [2016-02-07 11:02:25] body table:
+[:0000000f] [2016-02-07 11:02:25] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:02:25] new access 34812160 u34812160
+[:00000010] [2016-02-07 11:02:25] action /room
+[:00000010] [2016-02-07 11:02:25] body table:
+[:00000010] [2016-02-07 11:02:25] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:02:25] new access 34812223 u34812223
+[:00000011] [2016-02-07 11:02:25] action /room
+[:00000011] [2016-02-07 11:02:25] body table:
+[:00000011] [2016-02-07 11:02:25] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:02:25] new access 34812302 u34812302
+[:00000012] [2016-02-07 11:02:25] action /room
+[:00000012] [2016-02-07 11:02:25] body table:
+[:00000012] [2016-02-07 11:02:25] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:02:25] new access 34812148 u34812148
+[:00000013] [2016-02-07 11:02:25] action /room
+[:00000013] [2016-02-07 11:02:25] body table:
+[:00000013] [2016-02-07 11:02:25] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:02:26] new access 34812302 u34812302
+[:00000014] [2016-02-07 11:02:26] action /room
+[:00000014] [2016-02-07 11:02:26] body table:
+[:00000014] [2016-02-07 11:02:26] {
+  action = "set",
+  enable = true,
+  roomid = 936,
+  rule = "1",
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:02:27] new access 34812302 u34812302
+[:0000000b] [2016-02-07 11:02:27] action /room
+[:0000000b] [2016-02-07 11:02:27] body table:
+[:0000000b] [2016-02-07 11:02:27] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:02:27] new access 34812302 u34812302
+[:0000000e] [2016-02-07 11:02:27] action /room
+[:0000000e] [2016-02-07 11:02:27] body table:
+[:0000000e] [2016-02-07 11:02:27] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:02:27] new access 34812223 u34812223
+[:0000000f] [2016-02-07 11:02:27] action /room
+[:0000000f] [2016-02-07 11:02:27] body table:
+[:0000000f] [2016-02-07 11:02:27] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:02:27] new access 34807118 u34807118
+[:00000010] [2016-02-07 11:02:27] action /room
+[:00000010] [2016-02-07 11:02:27] body table:
+[:00000010] [2016-02-07 11:02:27] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:02:27] new access 34812160 u34812160
+[:00000011] [2016-02-07 11:02:27] action /room
+[:00000011] [2016-02-07 11:02:27] body table:
+[:00000011] [2016-02-07 11:02:27] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:02:27] new access 34812148 u34812148
+[:00000012] [2016-02-07 11:02:27] action /room
+[:00000012] [2016-02-07 11:02:27] body table:
+[:00000012] [2016-02-07 11:02:27] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:02:27] new access 34812302 u34812302
+[:00000013] [2016-02-07 11:02:27] action /room
+[:00000013] [2016-02-07 11:02:27] body table:
+[:00000013] [2016-02-07 11:02:27] {
+  action = "set",
+  enable = true,
+  roomid = 936,
+  rule = "2",
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:02:27] new access 34812302 u34812302
+[:00000014] [2016-02-07 11:02:27] action /room
+[:00000014] [2016-02-07 11:02:27] body table:
+[:00000014] [2016-02-07 11:02:27] {
+  action = "set",
+  enable = false,
+  roomid = 936,
+  rule = "2",
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:02:28] new access 34812302 u34812302
+[:0000000b] [2016-02-07 11:02:28] action /room
+[:0000000b] [2016-02-07 11:02:28] body table:
+[:0000000b] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:02:28] new access 34812223 u34812223
+[:0000000e] [2016-02-07 11:02:28] action /room
+[:0000000e] [2016-02-07 11:02:28] body table:
+[:0000000e] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 14,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:02:28] new access 34807118 u34807118
+[:0000000f] [2016-02-07 11:02:28] action /room
+[:0000000f] [2016-02-07 11:02:28] body table:
+[:0000000f] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 14,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:02:28] new access 34812302 u34812302
+[:00000010] [2016-02-07 11:02:28] action /room
+[:00000010] [2016-02-07 11:02:28] body table:
+[:00000010] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 14,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:02:28] new access 34812160 u34812160
+[:00000011] [2016-02-07 11:02:28] action /room
+[:00000011] [2016-02-07 11:02:28] body table:
+[:00000011] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 14,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:02:28] new access 34812302 u34812302
+[:00000012] [2016-02-07 11:02:28] action /room
+[:00000012] [2016-02-07 11:02:28] body table:
+[:00000012] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:02:28] new access 34812223 u34812223
+[:00000013] [2016-02-07 11:02:28] action /room
+[:00000013] [2016-02-07 11:02:28] body table:
+[:00000013] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:02:28] new access 34812160 u34812160
+[:00000014] [2016-02-07 11:02:28] action /room
+[:00000014] [2016-02-07 11:02:28] body table:
+[:00000014] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:02:28] new access 34807118 u34807118
+[:0000000b] [2016-02-07 11:02:28] action /room
+[:0000000b] [2016-02-07 11:02:28] body table:
+[:0000000b] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:02:28] new access 34812302 u34812302
+[:0000000e] [2016-02-07 11:02:28] action /room
+[:0000000e] [2016-02-07 11:02:28] body table:
+[:0000000e] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:02:28] new access 34812302 u34812302
+[:0000000f] [2016-02-07 11:02:28] action /room
+[:0000000f] [2016-02-07 11:02:28] body table:
+[:0000000f] [2016-02-07 11:02:28] {
+  action = "set",
+  enable = true,
+  roomid = 936,
+  rule = "3",
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:02:28] new access 34812302 u34812302
+[:00000010] [2016-02-07 11:02:28] action /room
+[:00000010] [2016-02-07 11:02:28] body table:
+[:00000010] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:02:28] new access 34812302 u34812302
+[:00000011] [2016-02-07 11:02:28] action /room
+[:00000011] [2016-02-07 11:02:28] body table:
+[:00000011] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:02:28] new access 34812160 u34812160
+[:00000012] [2016-02-07 11:02:28] action /room
+[:00000012] [2016-02-07 11:02:28] body table:
+[:00000012] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:02:28] new access 34807118 u34807118
+[:00000013] [2016-02-07 11:02:28] action /room
+[:00000013] [2016-02-07 11:02:28] body table:
+[:00000013] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:02:28] new access 34812223 u34812223
+[:00000014] [2016-02-07 11:02:28] action /room
+[:00000014] [2016-02-07 11:02:28] body table:
+[:00000014] [2016-02-07 11:02:28] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:02:29] new access 34812148 u34812148
+[:0000000b] [2016-02-07 11:02:29] action /room
+[:0000000b] [2016-02-07 11:02:29] body table:
+[:0000000b] [2016-02-07 11:02:29] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 14,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:02:29] new access 34812148 u34812148
+[:0000000e] [2016-02-07 11:02:29] action /room
+[:0000000e] [2016-02-07 11:02:29] body table:
+[:0000000e] [2016-02-07 11:02:29] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:02:29] new access 34812302 u34812302
+[:0000000f] [2016-02-07 11:02:29] action /room
+[:0000000f] [2016-02-07 11:02:29] body table:
+[:0000000f] [2016-02-07 11:02:29] {
+  action = "begin_game",
+  roomid = 936,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000015] [2016-02-07 11:02:29] idname 莫甘娜(邪)
+[:00000015] [2016-02-07 11:02:29] role_visible:
+[:00000015] [2016-02-07 11:02:29] { false, false, false, false, 4, 4, false, true, false, 4 }
+[:00000015] [2016-02-07 11:02:29] get visibal idname_res 邪
+[:00000015] [2016-02-07 11:02:29] idname 圆桌骑士(正)
+[:00000015] [2016-02-07 11:02:29] role_visible:
+[:00000015] [2016-02-07 11:02:29] { false, false, false, false, false, false, false, false, false, false }
+[:00000015] [2016-02-07 11:02:29] idname 圆桌骑士(正)
+[:00000015] [2016-02-07 11:02:29] role_visible:
+[:00000015] [2016-02-07 11:02:29] { false, false, false, false, false, false, false, false, false, false }
+[:00000015] [2016-02-07 11:02:29] idname 刺客(邪)
+[:00000015] [2016-02-07 11:02:29] role_visible:
+[:00000015] [2016-02-07 11:02:29] { false, false, false, false, false, 4, 4, true, false, 4 }
+[:00000015] [2016-02-07 11:02:29] get visibal idname_res 邪
+[:00000015] [2016-02-07 11:02:29] idname 梅林(正)
+[:00000015] [2016-02-07 11:02:29] role_visible:
+[:00000015] [2016-02-07 11:02:29] { false, false, false, false, 4, false, 4, 4, 4, 4 }
+[:00000015] [2016-02-07 11:02:29] get visibal idname_res 邪
+[:00000015] [2016-02-07 11:02:29] get visibal idname_res 邪
+[:00000015] [2016-02-07 11:02:29] idname 莫甘娜(邪)
+[:00000015] [2016-02-07 11:02:29] role_visible:
+[:00000015] [2016-02-07 11:02:29] { false, false, false, false, 4, 4, false, true, false, 4 }
+[:00000015] [2016-02-07 11:02:29] get visibal idname_res 邪
+[:00000010] [2016-02-07 11:02:29] new access 34812302 u34812302
+[:00000010] [2016-02-07 11:02:29] action /room
+[:00000010] [2016-02-07 11:02:29] body table:
+[:00000010] [2016-02-07 11:02:29] {
+  action = "request",
+  roomid = 936,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000015] [2016-02-07 11:02:29] idname 莫甘娜(邪)
+[:00000015] [2016-02-07 11:02:29] role_visible:
+[:00000015] [2016-02-07 11:02:29] { false, false, false, false, 4, 4, false, true, false, 4 }
+[:00000015] [2016-02-07 11:02:29] get visibal idname_res 邪
+[:00000011] [2016-02-07 11:02:29] new access 34812302 u34812302
+[:00000011] [2016-02-07 11:02:29] action /room
+[:00000011] [2016-02-07 11:02:29] body table:
+[:00000011] [2016-02-07 11:02:29] {
+  action = "request",
+  roomid = 936,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000015] [2016-02-07 11:02:29] idname 莫甘娜(邪)
+[:00000015] [2016-02-07 11:02:29] role_visible:
+[:00000015] [2016-02-07 11:02:29] { false, false, false, false, 4, 4, false, true, false, 4 }
+[:00000015] [2016-02-07 11:02:29] get visibal idname_res 邪
+[:00000012] [2016-02-07 11:02:29] new access 34812160 u34812160
+[:00000012] [2016-02-07 11:02:29] action /room
+[:00000012] [2016-02-07 11:02:29] body table:
+[:00000012] [2016-02-07 11:02:29] {
+  action = "request",
+  roomid = 936,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000015] [2016-02-07 11:02:29] idname 梅林(正)
+[:00000015] [2016-02-07 11:02:29] role_visible:
+[:00000015] [2016-02-07 11:02:29] { false, false, false, false, 4, false, 4, 4, 4, 4 }
+[:00000015] [2016-02-07 11:02:29] get visibal idname_res 邪
+[:00000015] [2016-02-07 11:02:29] get visibal idname_res 邪
+[:00000013] [2016-02-07 11:02:29] new access 34812223 u34812223
+[:00000013] [2016-02-07 11:02:29] action /room
+[:00000013] [2016-02-07 11:02:29] body table:
+[:00000013] [2016-02-07 11:02:29] {
+  action = "request",
+  roomid = 936,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000015] [2016-02-07 11:02:29] idname 圆桌骑士(正)
+[:00000015] [2016-02-07 11:02:29] role_visible:
+[:00000015] [2016-02-07 11:02:29] { false, false, false, false, false, false, false, false, false, false }
+[:00000014] [2016-02-07 11:02:29] new access 34807118 u34807118
+[:00000014] [2016-02-07 11:02:29] action /room
+[:00000014] [2016-02-07 11:02:29] body table:
+[:00000014] [2016-02-07 11:02:29] {
+  action = "request",
+  roomid = 936,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000015] [2016-02-07 11:02:29] idname 刺客(邪)
+[:00000015] [2016-02-07 11:02:29] role_visible:
+[:00000015] [2016-02-07 11:02:29] { false, false, false, false, false, 4, 4, true, false, 4 }
+[:00000015] [2016-02-07 11:02:29] get visibal idname_res 邪
+[:0000000b] [2016-02-07 11:02:30] new access 34812148 u34812148
+[:0000000b] [2016-02-07 11:02:30] action /room
+[:0000000b] [2016-02-07 11:02:30] body table:
+[:0000000b] [2016-02-07 11:02:30] {
+  action = "request",
+  roomid = 936,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000015] [2016-02-07 11:02:30] idname 圆桌骑士(正)
+[:00000015] [2016-02-07 11:02:30] role_visible:
+[:00000015] [2016-02-07 11:02:30] { false, false, false, false, false, false, false, false, false, false }
+[:0000000e] [2016-02-07 11:02:30] new access 34812302 u34812302
+[:0000000e] [2016-02-07 11:02:30] action /room
+[:0000000e] [2016-02-07 11:02:30] body table:
+[:0000000e] [2016-02-07 11:02:30] {
+  action = "request",
+  roomid = 936,
+  status = "game",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:02:30] new access 34812160 u34812160
+[:0000000f] [2016-02-07 11:02:30] action /room
+[:0000000f] [2016-02-07 11:02:30] body table:
+[:0000000f] [2016-02-07 11:02:30] {
+  action = "request",
+  roomid = 936,
+  status = "game",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:02:30] new access 34812223 u34812223
+[:00000010] [2016-02-07 11:02:30] action /room
+[:00000010] [2016-02-07 11:02:30] body table:
+[:00000010] [2016-02-07 11:02:30] {
+  action = "request",
+  roomid = 936,
+  status = "game",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:02:30] new access 34812148 u34812148
+[:00000011] [2016-02-07 11:02:30] action /room
+[:00000011] [2016-02-07 11:02:30] body table:
+[:00000011] [2016-02-07 11:02:30] {
+  action = "request",
+  roomid = 936,
+  status = "game",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:02:52] new access 34812302 u34812302
+[:00000012] [2016-02-07 11:02:52] action /
+[:00000012] [2016-02-07 11:02:52] body table:
+[:00000012] [2016-02-07 11:02:52] ""
+[:0000000e] [2016-02-07 11:02:53] new access 34812302 u34812302
+[:0000000e] [2016-02-07 11:02:53] action /lobby
+[:0000000e] [2016-02-07 11:02:53] body table:
+[:0000000e] [2016-02-07 11:02:53] {
+  action = "getname",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:02:53] new access 34812302 u34812302
+[:0000000f] [2016-02-07 11:02:53] action /lobby
+[:0000000f] [2016-02-07 11:02:53] body table:
+[:0000000f] [2016-02-07 11:02:53] {
+  action = "create",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000016] LAUNCH snlua room
+[:00000016] [2016-02-07 11:02:53] [Room:3531] open
+[:00000010] [2016-02-07 11:02:54] new access 34812302 u34812302
+[:00000010] [2016-02-07 11:02:54] action /3531
+[:00000010] [2016-02-07 11:02:54] body table:
+[:00000010] [2016-02-07 11:02:54] ""
+[:0000000b] [2016-02-07 11:02:55] new access 34812302 u34812302
+[:0000000b] [2016-02-07 11:02:55] action /room
+[:0000000b] [2016-02-07 11:02:55] body table:
+[:0000000b] [2016-02-07 11:02:55] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:02:55] new access 34812302 u34812302
+[:0000000e] [2016-02-07 11:02:55] action /room
+[:0000000e] [2016-02-07 11:02:55] body table:
+[:0000000e] [2016-02-07 11:02:55] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 3,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:02:55] new access 34812302 u34812302
+[:0000000f] [2016-02-07 11:02:55] action /room
+[:0000000f] [2016-02-07 11:02:55] body table:
+[:0000000f] [2016-02-07 11:02:55] {
+  action = "set",
+  enable = true,
+  roomid = 3531,
+  rule = "1",
+  status = "prepare",
+  version = 3,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:02:56] new access 34812302 u34812302
+[:00000010] [2016-02-07 11:02:56] action /room
+[:00000010] [2016-02-07 11:02:56] body table:
+[:00000010] [2016-02-07 11:02:56] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 4,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:02:56] new access 34812302 u34812302
+[:00000011] [2016-02-07 11:02:56] action /room
+[:00000011] [2016-02-07 11:02:56] body table:
+[:00000011] [2016-02-07 11:02:56] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:02:56] new access 34812302 u34812302
+[:00000012] [2016-02-07 11:02:56] action /room
+[:00000012] [2016-02-07 11:02:56] body table:
+[:00000012] [2016-02-07 11:02:56] {
+  action = "set",
+  enable = true,
+  roomid = 3531,
+  rule = "2",
+  status = "prepare",
+  version = 4,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:02:56] new access 34812302 u34812302
+[:00000013] [2016-02-07 11:02:56] action /room
+[:00000013] [2016-02-07 11:02:56] body table:
+[:00000013] [2016-02-07 11:02:56] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 4,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:02:56] new access 34812302 u34812302
+[:00000014] [2016-02-07 11:02:56] action /room
+[:00000014] [2016-02-07 11:02:56] body table:
+[:00000014] [2016-02-07 11:02:56] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:02:56] new access 34812302 u34812302
+[:0000000b] [2016-02-07 11:02:56] action /room
+[:0000000b] [2016-02-07 11:02:56] body table:
+[:0000000b] [2016-02-07 11:02:56] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 5,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:02:57] new access 34812302 u34812302
+[:0000000e] [2016-02-07 11:02:57] action /room
+[:0000000e] [2016-02-07 11:02:57] body table:
+[:0000000e] [2016-02-07 11:02:57] {
+  action = "set",
+  enable = true,
+  roomid = 3531,
+  rule = "3",
+  status = "prepare",
+  version = 5,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:02:57] new access 34812302 u34812302
+[:0000000f] [2016-02-07 11:02:57] action /room
+[:0000000f] [2016-02-07 11:02:57] body table:
+[:0000000f] [2016-02-07 11:02:57] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:02:57] new access 34812302 u34812302
+[:00000010] [2016-02-07 11:02:57] action /room
+[:00000010] [2016-02-07 11:02:57] body table:
+[:00000010] [2016-02-07 11:02:57] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 6,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:02:58] new access 34812302 u34812302
+[:00000011] [2016-02-07 11:02:58] action /room
+[:00000011] [2016-02-07 11:02:58] body table:
+[:00000011] [2016-02-07 11:02:58] {
+  action = "setname",
+  roomid = 3531,
+  status = "prepare",
+  username = "u34812302",
+  version = 6,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:02:58] new access 34812302 u34812302
+[:00000012] [2016-02-07 11:02:58] action /room
+[:00000012] [2016-02-07 11:02:58] body table:
+[:00000012] [2016-02-07 11:02:58] {
+  action = "ready",
+  enable = true,
+  roomid = 3531,
+  status = "prepare",
+  version = 6,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:02:58] new access 34812302 u34812302
+[:00000013] [2016-02-07 11:02:58] action /room
+[:00000013] [2016-02-07 11:02:58] body table:
+[:00000013] [2016-02-07 11:02:58] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 7,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:02:58] new access 34812302 u34812302
+[:00000014] [2016-02-07 11:02:58] action /room
+[:00000014] [2016-02-07 11:02:58] body table:
+[:00000014] [2016-02-07 11:02:58] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:02:59] new access 34812302 u34812302
+[:0000000b] [2016-02-07 11:02:59] action /room
+[:0000000b] [2016-02-07 11:02:59] body table:
+[:0000000b] [2016-02-07 11:02:59] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 7,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:03:01] new access 34812148 u34812148
+[:0000000e] [2016-02-07 11:03:01] action /3531
+[:0000000e] [2016-02-07 11:03:01] body table:
+[:0000000e] [2016-02-07 11:03:01] ""
+[:0000000f] [2016-02-07 11:03:02] new access 34812302 u34812302
+[:0000000f] [2016-02-07 11:03:02] action /room
+[:0000000f] [2016-02-07 11:03:02] body table:
+[:0000000f] [2016-02-07 11:03:02] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 8,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:03:02] new access 34812148 u34812148
+[:00000014] [2016-02-07 11:03:02] action /room
+[:00000014] [2016-02-07 11:03:02] body table:
+[:00000014] [2016-02-07 11:03:02] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:03:02] new access 34812148 u34812148
+[:0000000b] [2016-02-07 11:03:02] action /room
+[:0000000b] [2016-02-07 11:03:02] body table:
+[:0000000b] [2016-02-07 11:03:02] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 8,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:03:03] new access 34812148 u34812148
+[:0000000e] [2016-02-07 11:03:03] action /room
+[:0000000e] [2016-02-07 11:03:03] body table:
+[:0000000e] [2016-02-07 11:03:03] {
+  action = "setname",
+  roomid = 3531,
+  status = "prepare",
+  username = "u34812148",
+  version = 8,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:03:04] new access 34812148 u34812148
+[:0000000f] [2016-02-07 11:03:04] action /room
+[:0000000f] [2016-02-07 11:03:04] body table:
+[:0000000f] [2016-02-07 11:03:04] {
+  action = "ready",
+  enable = true,
+  roomid = 3531,
+  status = "prepare",
+  version = 8,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:03:04] new access 34812148 u34812148
+[:00000010] [2016-02-07 11:03:04] action /room
+[:00000010] [2016-02-07 11:03:04] body table:
+[:00000010] [2016-02-07 11:03:04] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:03:04] new access 34812302 u34812302
+[:00000011] [2016-02-07 11:03:04] action /room
+[:00000011] [2016-02-07 11:03:04] body table:
+[:00000011] [2016-02-07 11:03:04] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 9,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:03:04] new access 34812148 u34812148
+[:00000012] [2016-02-07 11:03:04] action /room
+[:00000012] [2016-02-07 11:03:04] body table:
+[:00000012] [2016-02-07 11:03:04] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 9,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:03:06] new access 34812160 u34812160
+[:00000013] [2016-02-07 11:03:06] action /3531
+[:00000013] [2016-02-07 11:03:06] body table:
+[:00000013] [2016-02-07 11:03:06] ""
+[:00000014] [2016-02-07 11:03:06] new access 34812302 u34812302
+[:00000014] [2016-02-07 11:03:06] action /room
+[:00000014] [2016-02-07 11:03:06] body table:
+[:00000014] [2016-02-07 11:03:06] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 10,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:03:06] new access 34812148 u34812148
+[:0000000e] [2016-02-07 11:03:06] action /room
+[:0000000e] [2016-02-07 11:03:06] body table:
+[:0000000e] [2016-02-07 11:03:06] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 10,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:03:06] new access 34812160 u34812160
+[:00000012] [2016-02-07 11:03:06] action /room
+[:00000012] [2016-02-07 11:03:06] body table:
+[:00000012] [2016-02-07 11:03:06] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:03:07] new access 34812160 u34812160
+[:00000013] [2016-02-07 11:03:07] action /room
+[:00000013] [2016-02-07 11:03:07] body table:
+[:00000013] [2016-02-07 11:03:07] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 10,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:03:07] new access 34812160 u34812160
+[:00000014] [2016-02-07 11:03:07] action /room
+[:00000014] [2016-02-07 11:03:07] body table:
+[:00000014] [2016-02-07 11:03:07] {
+  action = "setname",
+  roomid = 3531,
+  status = "prepare",
+  username = "u34812160",
+  version = 10,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:03:08] new access 34812160 u34812160
+[:0000000b] [2016-02-07 11:03:08] action /room
+[:0000000b] [2016-02-07 11:03:08] body table:
+[:0000000b] [2016-02-07 11:03:08] {
+  action = "ready",
+  enable = true,
+  roomid = 3531,
+  status = "prepare",
+  version = 10,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:03:08] new access 34812160 u34812160
+[:0000000e] [2016-02-07 11:03:08] action /room
+[:0000000e] [2016-02-07 11:03:08] body table:
+[:0000000e] [2016-02-07 11:03:08] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:03:08] new access 34812148 u34812148
+[:0000000f] [2016-02-07 11:03:08] action /room
+[:0000000f] [2016-02-07 11:03:08] body table:
+[:0000000f] [2016-02-07 11:03:08] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 11,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:03:08] new access 34812160 u34812160
+[:00000010] [2016-02-07 11:03:08] action /room
+[:00000010] [2016-02-07 11:03:08] body table:
+[:00000010] [2016-02-07 11:03:08] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 11,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:03:08] new access 34812302 u34812302
+[:00000011] [2016-02-07 11:03:08] action /room
+[:00000011] [2016-02-07 11:03:08] body table:
+[:00000011] [2016-02-07 11:03:08] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 11,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:03:11] new access 34812223 u34812223
+[:00000012] [2016-02-07 11:03:11] action /3531
+[:00000012] [2016-02-07 11:03:11] body table:
+[:00000012] [2016-02-07 11:03:11] ""
+[:00000013] [2016-02-07 11:03:11] new access 34812302 u34812302
+[:00000013] [2016-02-07 11:03:11] action /room
+[:00000013] [2016-02-07 11:03:11] body table:
+[:00000013] [2016-02-07 11:03:11] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:03:11] new access 34812148 u34812148
+[:00000014] [2016-02-07 11:03:11] action /room
+[:00000014] [2016-02-07 11:03:11] body table:
+[:00000014] [2016-02-07 11:03:11] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:03:11] new access 34812160 u34812160
+[:0000000b] [2016-02-07 11:03:11] action /room
+[:0000000b] [2016-02-07 11:03:11] body table:
+[:0000000b] [2016-02-07 11:03:11] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:03:11] new access 34812223 u34812223
+[:00000012] [2016-02-07 11:03:11] action /room
+[:00000012] [2016-02-07 11:03:11] body table:
+[:00000012] [2016-02-07 11:03:11] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:03:12] new access 34812223 u34812223
+[:00000013] [2016-02-07 11:03:12] action /room
+[:00000013] [2016-02-07 11:03:12] body table:
+[:00000013] [2016-02-07 11:03:12] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:03:12] new access 34812223 u34812223
+[:00000014] [2016-02-07 11:03:12] action /room
+[:00000014] [2016-02-07 11:03:12] body table:
+[:00000014] [2016-02-07 11:03:12] {
+  action = "setname",
+  roomid = 3531,
+  status = "prepare",
+  username = "u34812223",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:03:13] new access 34812223 u34812223
+[:0000000b] [2016-02-07 11:03:13] action /room
+[:0000000b] [2016-02-07 11:03:13] body table:
+[:0000000b] [2016-02-07 11:03:13] {
+  action = "ready",
+  enable = true,
+  roomid = 3531,
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:03:13] new access 34812160 u34812160
+[:0000000e] [2016-02-07 11:03:13] action /room
+[:0000000e] [2016-02-07 11:03:13] body table:
+[:0000000e] [2016-02-07 11:03:13] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:03:13] new access 34812223 u34812223
+[:0000000f] [2016-02-07 11:03:13] action /room
+[:0000000f] [2016-02-07 11:03:13] body table:
+[:0000000f] [2016-02-07 11:03:13] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:03:13] new access 34812302 u34812302
+[:00000010] [2016-02-07 11:03:13] action /room
+[:00000010] [2016-02-07 11:03:13] body table:
+[:00000010] [2016-02-07 11:03:13] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:03:13] new access 34812148 u34812148
+[:00000011] [2016-02-07 11:03:13] action /room
+[:00000011] [2016-02-07 11:03:13] body table:
+[:00000011] [2016-02-07 11:03:13] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:03:14] new access 34812223 u34812223
+[:00000012] [2016-02-07 11:03:14] action /room
+[:00000012] [2016-02-07 11:03:14] body table:
+[:00000012] [2016-02-07 11:03:14] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:03:15] new access 34812302 u34812302
+[:00000013] [2016-02-07 11:03:15] action /3531
+[:00000013] [2016-02-07 11:03:15] body table:
+[:00000013] [2016-02-07 11:03:15] ""
+[:00000014] [2016-02-07 11:03:16] new access 34812302 u34812302
+[:00000014] [2016-02-07 11:03:16] action /room
+[:00000014] [2016-02-07 11:03:16] body table:
+[:00000014] [2016-02-07 11:03:16] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 14,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:03:16] new access 34812223 u34812223
+[:0000000b] [2016-02-07 11:03:16] action /room
+[:0000000b] [2016-02-07 11:03:16] body table:
+[:0000000b] [2016-02-07 11:03:16] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 14,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:03:16] new access 34812148 u34812148
+[:0000000e] [2016-02-07 11:03:16] action /room
+[:0000000e] [2016-02-07 11:03:16] body table:
+[:0000000e] [2016-02-07 11:03:16] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 14,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:03:16] new access 34812160 u34812160
+[:0000000f] [2016-02-07 11:03:16] action /room
+[:0000000f] [2016-02-07 11:03:16] body table:
+[:0000000f] [2016-02-07 11:03:16] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 14,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:03:16] new access 34812302 u34812302
+[:00000014] [2016-02-07 11:03:16] action /room
+[:00000014] [2016-02-07 11:03:16] body table:
+[:00000014] [2016-02-07 11:03:16] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:03:16] new access 34812302 u34812302
+[:0000000b] [2016-02-07 11:03:16] action /room
+[:0000000b] [2016-02-07 11:03:16] body table:
+[:0000000b] [2016-02-07 11:03:16] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 14,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:03:27] new access 34807118 u34807118
+[:0000000e] [2016-02-07 11:03:27] action /3531
+[:0000000e] [2016-02-07 11:03:27] body table:
+[:0000000e] [2016-02-07 11:03:27] ""
+[:0000000f] [2016-02-07 11:03:27] new access 34812160 u34812160
+[:0000000f] [2016-02-07 11:03:27] action /room
+[:0000000f] [2016-02-07 11:03:27] body table:
+[:0000000f] [2016-02-07 11:03:27] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:03:27] new access 34812223 u34812223
+[:00000010] [2016-02-07 11:03:27] action /room
+[:00000010] [2016-02-07 11:03:27] body table:
+[:00000010] [2016-02-07 11:03:27] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:03:27] new access 34812148 u34812148
+[:00000011] [2016-02-07 11:03:27] action /room
+[:00000011] [2016-02-07 11:03:27] body table:
+[:00000011] [2016-02-07 11:03:27] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:03:27] new access 34812302 u34812302
+[:00000012] [2016-02-07 11:03:27] action /room
+[:00000012] [2016-02-07 11:03:27] body table:
+[:00000012] [2016-02-07 11:03:27] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:03:28] new access 34807118 u34807118
+[:0000000f] [2016-02-07 11:03:28] action /room
+[:0000000f] [2016-02-07 11:03:28] body table:
+[:0000000f] [2016-02-07 11:03:28] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:03:29] new access 34807118 u34807118
+[:00000010] [2016-02-07 11:03:29] action /room
+[:00000010] [2016-02-07 11:03:29] body table:
+[:00000010] [2016-02-07 11:03:29] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:03:29] new access 34807118 u34807118
+[:00000011] [2016-02-07 11:03:29] action /room
+[:00000011] [2016-02-07 11:03:29] body table:
+[:00000011] [2016-02-07 11:03:29] {
+  action = "setname",
+  roomid = 3531,
+  status = "prepare",
+  username = "u34807118",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:03:29] new access 34807118 u34807118
+[:00000012] [2016-02-07 11:03:29] action /room
+[:00000012] [2016-02-07 11:03:29] body table:
+[:00000012] [2016-02-07 11:03:29] {
+  action = "ready",
+  enable = true,
+  roomid = 3531,
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:03:30] new access 34812223 u34812223
+[:00000013] [2016-02-07 11:03:30] action /room
+[:00000013] [2016-02-07 11:03:30] body table:
+[:00000013] [2016-02-07 11:03:30] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:03:30] new access 34812148 u34812148
+[:00000014] [2016-02-07 11:03:30] action /room
+[:00000014] [2016-02-07 11:03:30] body table:
+[:00000014] [2016-02-07 11:03:30] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:03:30] new access 34807118 u34807118
+[:0000000b] [2016-02-07 11:03:30] action /room
+[:0000000b] [2016-02-07 11:03:30] body table:
+[:0000000b] [2016-02-07 11:03:30] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:03:30] new access 34812302 u34812302
+[:0000000e] [2016-02-07 11:03:30] action /room
+[:0000000e] [2016-02-07 11:03:30] body table:
+[:0000000e] [2016-02-07 11:03:30] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:03:30] new access 34807118 u34807118
+[:0000000f] [2016-02-07 11:03:30] action /room
+[:0000000f] [2016-02-07 11:03:30] body table:
+[:0000000f] [2016-02-07 11:03:30] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:03:30] new access 34812160 u34812160
+[:00000010] [2016-02-07 11:03:30] action /room
+[:00000010] [2016-02-07 11:03:30] body table:
+[:00000010] [2016-02-07 11:03:30] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:03:30] new access 34807118 u34807118
+[:00000011] [2016-02-07 11:03:30] action /room
+[:00000011] [2016-02-07 11:03:30] body table:
+[:00000011] [2016-02-07 11:03:30] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:03:36] new access 34812148 u34812148
+[:00000012] [2016-02-07 11:03:36] action /room
+[:00000012] [2016-02-07 11:03:36] body table:
+[:00000012] [2016-02-07 11:03:36] {
+  action = "begin_game",
+  roomid = 3531,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000016] [2016-02-07 11:03:36] idname 梅林(正)
+[:00000016] [2016-02-07 11:03:36] role_visible:
+[:00000016] [2016-02-07 11:03:36] { false, false, false, false, 4, false, 4, 4, 4, 4 }
+[:00000016] [2016-02-07 11:03:36] get visibal idname_res 邪
+[:00000016] [2016-02-07 11:03:36] get visibal idname_res 邪
+[:00000016] [2016-02-07 11:03:36] idname 圆桌骑士(正)
+[:00000016] [2016-02-07 11:03:36] role_visible:
+[:00000016] [2016-02-07 11:03:36] { false, false, false, false, false, false, false, false, false, false }
+[:00000016] [2016-02-07 11:03:36] idname 刺客(邪)
+[:00000016] [2016-02-07 11:03:36] role_visible:
+[:00000016] [2016-02-07 11:03:36] { false, false, false, false, false, 4, 4, true, false, 4 }
+[:00000016] [2016-02-07 11:03:36] get visibal idname_res 邪
+[:00000016] [2016-02-07 11:03:36] idname 派西维尔(正)
+[:00000016] [2016-02-07 11:03:36] role_visible:
+[:00000016] [2016-02-07 11:03:36] { 5, false, false, false, false, false, 5, false, false, false }
+[:00000016] [2016-02-07 11:03:36] get visibal idname_res 梅林
+[:00000016] [2016-02-07 11:03:36] get visibal idname_res 梅林
+[:00000016] [2016-02-07 11:03:36] idname 梅林(正)
+[:00000016] [2016-02-07 11:03:36] role_visible:
+[:00000016] [2016-02-07 11:03:36] { false, false, false, false, 4, false, 4, 4, 4, 4 }
+[:00000016] [2016-02-07 11:03:36] get visibal idname_res 邪
+[:00000016] [2016-02-07 11:03:36] get visibal idname_res 邪
+[:00000016] [2016-02-07 11:03:36] idname 莫甘娜(邪)
+[:00000016] [2016-02-07 11:03:36] role_visible:
+[:00000016] [2016-02-07 11:03:36] { false, false, false, false, 4, 4, false, true, false, 4 }
+[:00000016] [2016-02-07 11:03:36] get visibal idname_res 邪
+[:00000013] [2016-02-07 11:03:37] new access 34807118 u34807118
+[:00000013] [2016-02-07 11:03:37] action /room
+[:00000013] [2016-02-07 11:03:37] body table:
+[:00000013] [2016-02-07 11:03:37] {
+  action = "request",
+  roomid = 3531,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000016] [2016-02-07 11:03:37] idname 圆桌骑士(正)
+[:00000016] [2016-02-07 11:03:37] role_visible:
+[:00000016] [2016-02-07 11:03:37] { false, false, false, false, false, false, false, false, false, false }
+[:00000014] [2016-02-07 11:03:37] new access 34812223 u34812223
+[:00000014] [2016-02-07 11:03:37] action /room
+[:00000014] [2016-02-07 11:03:37] body table:
+[:00000014] [2016-02-07 11:03:37] {
+  action = "request",
+  roomid = 3531,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000016] [2016-02-07 11:03:37] idname 莫甘娜(邪)
+[:00000016] [2016-02-07 11:03:37] role_visible:
+[:00000016] [2016-02-07 11:03:37] { false, false, false, false, 4, 4, false, true, false, 4 }
+[:00000016] [2016-02-07 11:03:37] get visibal idname_res 邪
+[:0000000b] [2016-02-07 11:03:37] new access 34812148 u34812148
+[:0000000b] [2016-02-07 11:03:37] action /room
+[:0000000b] [2016-02-07 11:03:37] body table:
+[:0000000b] [2016-02-07 11:03:37] {
+  action = "request",
+  roomid = 3531,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000016] [2016-02-07 11:03:37] idname 梅林(正)
+[:00000016] [2016-02-07 11:03:37] role_visible:
+[:00000016] [2016-02-07 11:03:37] { false, false, false, false, 4, false, 4, 4, 4, 4 }
+[:00000016] [2016-02-07 11:03:37] get visibal idname_res 邪
+[:00000016] [2016-02-07 11:03:37] get visibal idname_res 邪
+[:0000000e] [2016-02-07 11:03:37] new access 34812148 u34812148
+[:0000000e] [2016-02-07 11:03:37] action /room
+[:0000000e] [2016-02-07 11:03:37] body table:
+[:0000000e] [2016-02-07 11:03:37] {
+  action = "request",
+  roomid = 3531,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000016] [2016-02-07 11:03:37] idname 梅林(正)
+[:00000016] [2016-02-07 11:03:37] role_visible:
+[:00000016] [2016-02-07 11:03:37] { false, false, false, false, 4, false, 4, 4, 4, 4 }
+[:00000016] [2016-02-07 11:03:37] get visibal idname_res 邪
+[:00000016] [2016-02-07 11:03:37] get visibal idname_res 邪
+[:0000000f] [2016-02-07 11:03:37] new access 34812160 u34812160
+[:0000000f] [2016-02-07 11:03:37] action /room
+[:0000000f] [2016-02-07 11:03:37] body table:
+[:0000000f] [2016-02-07 11:03:37] {
+  action = "request",
+  roomid = 3531,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000016] [2016-02-07 11:03:37] idname 派西维尔(正)
+[:00000016] [2016-02-07 11:03:37] role_visible:
+[:00000016] [2016-02-07 11:03:37] { 5, false, false, false, false, false, 5, false, false, false }
+[:00000016] [2016-02-07 11:03:37] get visibal idname_res 梅林
+[:00000016] [2016-02-07 11:03:37] get visibal idname_res 梅林
+[:00000010] [2016-02-07 11:03:37] new access 34812302 u34812302
+[:00000010] [2016-02-07 11:03:37] action /room
+[:00000010] [2016-02-07 11:03:37] body table:
+[:00000010] [2016-02-07 11:03:37] {
+  action = "request",
+  roomid = 3531,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000016] [2016-02-07 11:03:37] idname 刺客(邪)
+[:00000016] [2016-02-07 11:03:37] role_visible:
+[:00000016] [2016-02-07 11:03:37] { false, false, false, false, false, 4, 4, true, false, 4 }
+[:00000016] [2016-02-07 11:03:37] get visibal idname_res 邪
+[:00000011] [2016-02-07 11:03:37] new access 34807118 u34807118
+[:00000011] [2016-02-07 11:03:37] action /room
+[:00000011] [2016-02-07 11:03:37] body table:
+[:00000011] [2016-02-07 11:03:37] {
+  action = "request",
+  roomid = 3531,
+  status = "game",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:03:37] new access 34812223 u34812223
+[:00000012] [2016-02-07 11:03:37] action /room
+[:00000012] [2016-02-07 11:03:37] body table:
+[:00000012] [2016-02-07 11:03:37] {
+  action = "request",
+  roomid = 3531,
+  status = "game",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:03:37] new access 34812148 u34812148
+[:00000013] [2016-02-07 11:03:37] action /room
+[:00000013] [2016-02-07 11:03:37] body table:
+[:00000013] [2016-02-07 11:03:37] {
+  action = "request",
+  roomid = 3531,
+  status = "game",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:03:37] new access 34812302 u34812302
+[:00000014] [2016-02-07 11:03:37] action /room
+[:00000014] [2016-02-07 11:03:37] body table:
+[:00000014] [2016-02-07 11:03:37] {
+  action = "request",
+  roomid = 3531,
+  status = "game",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:03:54] new access 34812302 u34812302
+[:0000000b] [2016-02-07 11:03:54] action /
+[:0000000b] [2016-02-07 11:03:54] body table:
+[:0000000b] [2016-02-07 11:03:54] ""
+[:00000011] [2016-02-07 11:03:55] new access 34812302 u34812302
+[:00000011] [2016-02-07 11:03:55] action /lobby
+[:00000011] [2016-02-07 11:03:55] body table:
+[:00000011] [2016-02-07 11:03:55] {
+  action = "getname",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:04:17] new access 34807118 u34807118
+[:00000012] [2016-02-07 11:04:17] action /
+[:00000012] [2016-02-07 11:04:17] body table:
+[:00000012] [2016-02-07 11:04:17] ""
+[:0000000e] [2016-02-07 11:04:18] new access 34807118 u34807118
+[:0000000e] [2016-02-07 11:04:18] action /lobby
+[:0000000e] [2016-02-07 11:04:18] body table:
+[:0000000e] [2016-02-07 11:04:18] {
+  action = "getname",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:04:19] new access 34807118 u34807118
+[:0000000f] [2016-02-07 11:04:19] action /lobby
+[:0000000f] [2016-02-07 11:04:19] body table:
+[:0000000f] [2016-02-07 11:04:19] {
+  action = "create",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] LAUNCH snlua room
+[:00000017] [2016-02-07 11:04:19] [Room:43] open
+[:00000010] [2016-02-07 11:04:19] new access 34807118 u34807118
+[:00000010] [2016-02-07 11:04:19] action /43
+[:00000010] [2016-02-07 11:04:19] body table:
+[:00000010] [2016-02-07 11:04:19] ""
+[:0000000b] [2016-02-07 11:04:20] new access 34807118 u34807118
+[:0000000b] [2016-02-07 11:04:20] action /room
+[:0000000b] [2016-02-07 11:04:20] body table:
+[:0000000b] [2016-02-07 11:04:20] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:04:21] new access 34807118 u34807118
+[:0000000e] [2016-02-07 11:04:21] action /room
+[:0000000e] [2016-02-07 11:04:21] body table:
+[:0000000e] [2016-02-07 11:04:21] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 3,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:04:22] new access 34800395 u34800395
+[:0000000f] [2016-02-07 11:04:22] action /
+[:0000000f] [2016-02-07 11:04:22] body table:
+[:0000000f] [2016-02-07 11:04:22] ""
+[:00000013] [2016-02-07 11:04:23] new access 34800395 u34800395
+[:00000013] [2016-02-07 11:04:23] action /lobby
+[:00000013] [2016-02-07 11:04:23] body table:
+[:00000013] [2016-02-07 11:04:23] {
+  action = "getname",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:04:24] new access 34807118 u34807118
+[:00000014] [2016-02-07 11:04:24] action /room
+[:00000014] [2016-02-07 11:04:24] body table:
+[:00000014] [2016-02-07 11:04:24] {
+  action = "setname",
+  roomid = 43,
+  status = "prepare",
+  username = "沈陈霄",
+  version = 3,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:04:24] new access 34807118 沈陈霄
+[:0000000b] [2016-02-07 11:04:24] action /room
+[:0000000b] [2016-02-07 11:04:24] body table:
+[:0000000b] [2016-02-07 11:04:24] {
+  action = "ready",
+  enable = true,
+  roomid = 43,
+  status = "prepare",
+  version = 3,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:04:24] new access 34807118 沈陈霄
+[:0000000e] [2016-02-07 11:04:24] action /room
+[:0000000e] [2016-02-07 11:04:24] body table:
+[:0000000e] [2016-02-07 11:04:24] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 4,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:04:24] new access 34807118 沈陈霄
+[:0000000f] [2016-02-07 11:04:24] action /room
+[:0000000f] [2016-02-07 11:04:24] body table:
+[:0000000f] [2016-02-07 11:04:24] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:04:24] new access 34807118 沈陈霄
+[:00000010] [2016-02-07 11:04:24] action /room
+[:00000010] [2016-02-07 11:04:24] body table:
+[:00000010] [2016-02-07 11:04:24] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 5,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:04:37] new access 34800395 u34800395
+[:00000011] [2016-02-07 11:04:37] action /43
+[:00000011] [2016-02-07 11:04:37] body table:
+[:00000011] [2016-02-07 11:04:37] ""
+[:00000012] [2016-02-07 11:04:37] new access 34812223 u34812223
+[:00000012] [2016-02-07 11:04:37] action /room
+[:00000012] [2016-02-07 11:04:37] body table:
+[:00000012] [2016-02-07 11:04:37] {
+  action = "request",
+  roomid = 3531,
+  status = "game",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:04:37] new access 34812148 u34812148
+[:00000013] [2016-02-07 11:04:37] action /room
+[:00000013] [2016-02-07 11:04:37] body table:
+[:00000013] [2016-02-07 11:04:37] {
+  action = "request",
+  roomid = 3531,
+  status = "game",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:04:37] new access 34807118 沈陈霄
+[:0000000e] [2016-02-07 11:04:37] action /room
+[:0000000e] [2016-02-07 11:04:37] body table:
+[:0000000e] [2016-02-07 11:04:37] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 6,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:04:38] new access 34814278 u34814278
+[:00000011] [2016-02-07 11:04:38] action /
+[:00000011] [2016-02-07 11:04:38] body table:
+[:00000011] [2016-02-07 11:04:38] ""
+[:00000012] [2016-02-07 11:04:38] new access 34800395 u34800395
+[:00000012] [2016-02-07 11:04:38] action /room
+[:00000012] [2016-02-07 11:04:38] body table:
+[:00000012] [2016-02-07 11:04:38] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:04:38] new access 34812148 u34812148
+[:00000013] [2016-02-07 11:04:38] action /43
+[:00000013] [2016-02-07 11:04:38] body table:
+[:00000013] [2016-02-07 11:04:38] ""
+[:00000014] [2016-02-07 11:04:38] new access 34800395 u34800395
+[:00000014] [2016-02-07 11:04:38] action /room
+[:00000014] [2016-02-07 11:04:38] body table:
+[:00000014] [2016-02-07 11:04:38] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 6,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:04:38] new access 34807118 沈陈霄
+[:0000000b] [2016-02-07 11:04:38] action /room
+[:0000000b] [2016-02-07 11:04:38] body table:
+[:0000000b] [2016-02-07 11:04:38] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 7,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:04:39] new access 34800395 u34800395
+[:00000013] [2016-02-07 11:04:39] action /room
+[:00000013] [2016-02-07 11:04:39] body table:
+[:00000013] [2016-02-07 11:04:39] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 7,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:04:39] new access 34812148 u34812148
+[:00000014] [2016-02-07 11:04:39] action /room
+[:00000014] [2016-02-07 11:04:39] body table:
+[:00000014] [2016-02-07 11:04:39] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:04:39] new access 34812148 u34812148
+[:0000000b] [2016-02-07 11:04:39] action /room
+[:0000000b] [2016-02-07 11:04:39] body table:
+[:0000000b] [2016-02-07 11:04:39] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 7,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:04:40] new access 34814278 u34814278
+[:00000010] [2016-02-07 11:04:40] action /lobby
+[:00000010] [2016-02-07 11:04:40] body table:
+[:00000010] [2016-02-07 11:04:40] {
+  action = "getname",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:04:48] new access 34812148 u34812148
+[:00000011] [2016-02-07 11:04:48] action /room
+[:00000011] [2016-02-07 11:04:48] body table:
+[:00000011] [2016-02-07 11:04:48] {
+  action = "setname",
+  roomid = 43,
+  status = "prepare",
+  username = "沈陈霄小号",
+  version = 7,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:04:48] new access 34812148 沈陈霄小号
+[:00000012] [2016-02-07 11:04:48] action /room
+[:00000012] [2016-02-07 11:04:48] body table:
+[:00000012] [2016-02-07 11:04:48] {
+  action = "ready",
+  enable = true,
+  roomid = 43,
+  status = "prepare",
+  version = 7,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:04:48] new access 34812148 沈陈霄小号
+[:00000013] [2016-02-07 11:04:48] action /room
+[:00000013] [2016-02-07 11:04:48] body table:
+[:00000013] [2016-02-07 11:04:48] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 8,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:04:48] new access 34807118 沈陈霄
+[:00000014] [2016-02-07 11:04:48] action /room
+[:00000014] [2016-02-07 11:04:48] body table:
+[:00000014] [2016-02-07 11:04:48] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 8,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:04:48] new access 34800395 u34800395
+[:0000000b] [2016-02-07 11:04:48] action /room
+[:0000000b] [2016-02-07 11:04:48] body table:
+[:0000000b] [2016-02-07 11:04:48] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 8,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:04:48] new access 34812148 沈陈霄小号
+[:0000000e] [2016-02-07 11:04:48] action /room
+[:0000000e] [2016-02-07 11:04:48] body table:
+[:0000000e] [2016-02-07 11:04:48] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:04:48] new access 34812148 沈陈霄小号
+[:0000000f] [2016-02-07 11:04:48] action /room
+[:0000000f] [2016-02-07 11:04:48] body table:
+[:0000000f] [2016-02-07 11:04:48] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 9,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:04:48] new access 34807118 沈陈霄
+[:00000010] [2016-02-07 11:04:48] action /room
+[:00000010] [2016-02-07 11:04:48] body table:
+[:00000010] [2016-02-07 11:04:48] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 9,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:04:48] new access 34800395 u34800395
+[:00000011] [2016-02-07 11:04:48] action /room
+[:00000011] [2016-02-07 11:04:48] body table:
+[:00000011] [2016-02-07 11:04:48] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 9,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:04:53] new access 34814278 u34814278
+[:00000012] [2016-02-07 11:04:53] action /lobby
+[:00000012] [2016-02-07 11:04:53] body table:
+[:00000012] [2016-02-07 11:04:53] {
+  action = "create",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000018] LAUNCH snlua room
+[:00000018] [2016-02-07 11:04:53] [Room:7458] open
+[:00000013] [2016-02-07 11:04:54] new access 34800395 u34800395
+[:00000013] [2016-02-07 11:04:54] action /room
+[:00000013] [2016-02-07 11:04:54] body table:
+[:00000013] [2016-02-07 11:04:54] {
+  action = "setname",
+  roomid = 43,
+  status = "prepare",
+  username = "Syc",
+  version = 9,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:04:54] new access 34814278 u34814278
+[:00000014] [2016-02-07 11:04:54] action /7458
+[:00000014] [2016-02-07 11:04:54] body table:
+[:00000014] [2016-02-07 11:04:54] ""
+[:0000000b] [2016-02-07 11:04:54] new access 34807118 沈陈霄
+[:0000000b] [2016-02-07 11:04:54] action /room
+[:0000000b] [2016-02-07 11:04:54] body table:
+[:0000000b] [2016-02-07 11:04:54] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 10,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:04:54] new access 34812148 沈陈霄小号
+[:0000000e] [2016-02-07 11:04:54] action /room
+[:0000000e] [2016-02-07 11:04:54] body table:
+[:0000000e] [2016-02-07 11:04:54] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 10,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:04:54] new access 34800395 Syc
+[:0000000f] [2016-02-07 11:04:54] action /room
+[:0000000f] [2016-02-07 11:04:54] body table:
+[:0000000f] [2016-02-07 11:04:54] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 10,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:04:54] new access 34800395 Syc
+[:00000010] [2016-02-07 11:04:54] action /room
+[:00000010] [2016-02-07 11:04:54] body table:
+[:00000010] [2016-02-07 11:04:54] {
+  action = "ready",
+  enable = true,
+  roomid = 43,
+  status = "prepare",
+  version = 9,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:04:54] new access 34800395 Syc
+[:00000011] [2016-02-07 11:04:54] action /room
+[:00000011] [2016-02-07 11:04:54] body table:
+[:00000011] [2016-02-07 11:04:54] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 11,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:04:54] new access 34812148 沈陈霄小号
+[:00000012] [2016-02-07 11:04:54] action /room
+[:00000012] [2016-02-07 11:04:54] body table:
+[:00000012] [2016-02-07 11:04:54] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 11,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:04:55] new access 34807118 沈陈霄
+[:00000013] [2016-02-07 11:04:55] action /room
+[:00000013] [2016-02-07 11:04:55] body table:
+[:00000013] [2016-02-07 11:04:55] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 11,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:04:55] new access 34800395 Syc
+[:0000000b] [2016-02-07 11:04:55] action /room
+[:0000000b] [2016-02-07 11:04:55] body table:
+[:0000000b] [2016-02-07 11:04:55] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:04:55] new access 34800395 Syc
+[:0000000f] [2016-02-07 11:04:55] action /room
+[:0000000f] [2016-02-07 11:04:55] body table:
+[:0000000f] [2016-02-07 11:04:55] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 11,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:04:56] new access 34814278 u34814278
+[:00000012] [2016-02-07 11:04:56] action /room
+[:00000012] [2016-02-07 11:04:56] body table:
+[:00000012] [2016-02-07 11:04:56] {
+  action = "request",
+  roomid = 7458,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:04:57] new access 34814278 u34814278
+[:00000013] [2016-02-07 11:04:57] action /room
+[:00000013] [2016-02-07 11:04:57] body table:
+[:00000013] [2016-02-07 11:04:57] {
+  action = "request",
+  roomid = 7458,
+  status = "prepare",
+  version = 3,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:04:59] new access 34812160 u34812160
+[:00000014] [2016-02-07 11:04:59] action /43
+[:00000014] [2016-02-07 11:04:59] body table:
+[:00000014] [2016-02-07 11:04:59] ""
+[:0000000e] [2016-02-07 11:04:59] new access 34812148 沈陈霄小号
+[:0000000e] [2016-02-07 11:04:59] action /room
+[:0000000e] [2016-02-07 11:04:59] body table:
+[:0000000e] [2016-02-07 11:04:59] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:04:59] new access 34807118 沈陈霄
+[:0000000f] [2016-02-07 11:04:59] action /room
+[:0000000f] [2016-02-07 11:04:59] body table:
+[:0000000f] [2016-02-07 11:04:59] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:04:59] new access 34800395 Syc
+[:00000013] [2016-02-07 11:04:59] action /room
+[:00000013] [2016-02-07 11:04:59] body table:
+[:00000013] [2016-02-07 11:04:59] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:04:59] new access 34812160 u34812160
+[:00000014] [2016-02-07 11:04:59] action /room
+[:00000014] [2016-02-07 11:04:59] body table:
+[:00000014] [2016-02-07 11:04:59] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:00] new access 34812160 u34812160
+[:0000000b] [2016-02-07 11:05:00] action /room
+[:0000000b] [2016-02-07 11:05:00] body table:
+[:0000000b] [2016-02-07 11:05:00] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:03] new access 34812160 u34812160
+[:0000000e] [2016-02-07 11:05:03] action /room
+[:0000000e] [2016-02-07 11:05:03] body table:
+[:0000000e] [2016-02-07 11:05:03] {
+  action = "set",
+  enable = true,
+  roomid = 43,
+  rule = "1",
+  status = "prepare",
+  version = 12,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:04] new access 34812148 沈陈霄小号
+[:0000000f] [2016-02-07 11:05:04] action /room
+[:0000000f] [2016-02-07 11:05:04] body table:
+[:0000000f] [2016-02-07 11:05:04] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:05:04] new access 34812160 u34812160
+[:00000010] [2016-02-07 11:05:04] action /room
+[:00000010] [2016-02-07 11:05:04] body table:
+[:00000010] [2016-02-07 11:05:04] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:05:04] new access 34812160 u34812160
+[:00000011] [2016-02-07 11:05:04] action /room
+[:00000011] [2016-02-07 11:05:04] body table:
+[:00000011] [2016-02-07 11:05:04] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:05:04] new access 34807118 沈陈霄
+[:00000012] [2016-02-07 11:05:04] action /room
+[:00000012] [2016-02-07 11:05:04] body table:
+[:00000012] [2016-02-07 11:05:04] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:05:04] new access 34812160 u34812160
+[:00000013] [2016-02-07 11:05:04] action /room
+[:00000013] [2016-02-07 11:05:04] body table:
+[:00000013] [2016-02-07 11:05:04] {
+  action = "set",
+  enable = true,
+  roomid = 43,
+  rule = "2",
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:05:04] new access 34800395 Syc
+[:00000014] [2016-02-07 11:05:04] action /room
+[:00000014] [2016-02-07 11:05:04] body table:
+[:00000014] [2016-02-07 11:05:04] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:04] new access 34812160 u34812160
+[:0000000b] [2016-02-07 11:05:04] action /room
+[:0000000b] [2016-02-07 11:05:04] body table:
+[:0000000b] [2016-02-07 11:05:04] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:04] new access 34812148 沈陈霄小号
+[:0000000e] [2016-02-07 11:05:04] action /room
+[:0000000e] [2016-02-07 11:05:04] body table:
+[:0000000e] [2016-02-07 11:05:04] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 14,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:04] new access 34812160 u34812160
+[:0000000f] [2016-02-07 11:05:04] action /room
+[:0000000f] [2016-02-07 11:05:04] body table:
+[:0000000f] [2016-02-07 11:05:04] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:05:04] new access 34807118 沈陈霄
+[:00000010] [2016-02-07 11:05:04] action /room
+[:00000010] [2016-02-07 11:05:04] body table:
+[:00000010] [2016-02-07 11:05:04] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 14,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:05:04] new access 34800395 Syc
+[:00000011] [2016-02-07 11:05:04] action /room
+[:00000011] [2016-02-07 11:05:04] body table:
+[:00000011] [2016-02-07 11:05:04] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 14,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:05:04] new access 34812160 u34812160
+[:00000012] [2016-02-07 11:05:04] action /room
+[:00000012] [2016-02-07 11:05:04] body table:
+[:00000012] [2016-02-07 11:05:04] {
+  action = "set",
+  enable = true,
+  roomid = 43,
+  rule = "3",
+  status = "prepare",
+  version = 13,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:05:04] new access 34812160 u34812160
+[:00000013] [2016-02-07 11:05:04] action /room
+[:00000013] [2016-02-07 11:05:04] body table:
+[:00000013] [2016-02-07 11:05:04] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 14,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:05:05] new access 34812148 沈陈霄小号
+[:00000014] [2016-02-07 11:05:05] action /room
+[:00000014] [2016-02-07 11:05:05] body table:
+[:00000014] [2016-02-07 11:05:05] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:05] new access 34807118 沈陈霄
+[:0000000b] [2016-02-07 11:05:05] action /room
+[:0000000b] [2016-02-07 11:05:05] body table:
+[:0000000b] [2016-02-07 11:05:05] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:05] new access 34812160 u34812160
+[:0000000e] [2016-02-07 11:05:05] action /room
+[:0000000e] [2016-02-07 11:05:05] body table:
+[:0000000e] [2016-02-07 11:05:05] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:05] new access 34812160 u34812160
+[:0000000f] [2016-02-07 11:05:05] action /room
+[:0000000f] [2016-02-07 11:05:05] body table:
+[:0000000f] [2016-02-07 11:05:05] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:05:05] new access 34800395 Syc
+[:00000010] [2016-02-07 11:05:05] action /room
+[:00000010] [2016-02-07 11:05:05] body table:
+[:00000010] [2016-02-07 11:05:05] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 15,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:05:08] new access 34814278 u34814278
+[:00000011] [2016-02-07 11:05:08] action /
+[:00000011] [2016-02-07 11:05:08] body table:
+[:00000011] [2016-02-07 11:05:08] ""
+[:00000012] [2016-02-07 11:05:09] new access 34814278 u34814278
+[:00000012] [2016-02-07 11:05:09] action /lobby
+[:00000012] [2016-02-07 11:05:09] body table:
+[:00000012] [2016-02-07 11:05:09] {
+  action = "getname",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:05:15] new access 34800395 Syc
+[:00000013] [2016-02-07 11:05:15] action /43
+[:00000013] [2016-02-07 11:05:15] body table:
+[:00000013] [2016-02-07 11:05:15] ""
+[:00000014] [2016-02-07 11:05:15] new access 34812160 u34812160
+[:00000014] [2016-02-07 11:05:15] action /room
+[:00000014] [2016-02-07 11:05:15] body table:
+[:00000014] [2016-02-07 11:05:15] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:15] new access 34812148 沈陈霄小号
+[:0000000b] [2016-02-07 11:05:15] action /room
+[:0000000b] [2016-02-07 11:05:15] body table:
+[:0000000b] [2016-02-07 11:05:15] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:15] new access 34807118 沈陈霄
+[:0000000e] [2016-02-07 11:05:15] action /room
+[:0000000e] [2016-02-07 11:05:15] body table:
+[:0000000e] [2016-02-07 11:05:15] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:05:16] new access 34800395 Syc
+[:00000013] [2016-02-07 11:05:16] action /room
+[:00000013] [2016-02-07 11:05:16] body table:
+[:00000013] [2016-02-07 11:05:16] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:05:16] new access 34800395 Syc
+[:00000014] [2016-02-07 11:05:16] action /room
+[:00000014] [2016-02-07 11:05:16] body table:
+[:00000014] [2016-02-07 11:05:16] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:26] new access 34800395 Syc
+[:0000000b] [2016-02-07 11:05:26] action /room
+[:0000000b] [2016-02-07 11:05:26] body table:
+[:0000000b] [2016-02-07 11:05:26] {
+  action = "set",
+  enable = true,
+  roomid = 43,
+  rule = "4",
+  status = "prepare",
+  version = 16,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:26] new access 34812148 沈陈霄小号
+[:0000000e] [2016-02-07 11:05:26] action /room
+[:0000000e] [2016-02-07 11:05:26] body table:
+[:0000000e] [2016-02-07 11:05:26] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:26] new access 34807118 沈陈霄
+[:0000000f] [2016-02-07 11:05:26] action /room
+[:0000000f] [2016-02-07 11:05:26] body table:
+[:0000000f] [2016-02-07 11:05:26] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:05:26] new access 34812160 u34812160
+[:00000010] [2016-02-07 11:05:26] action /room
+[:00000010] [2016-02-07 11:05:26] body table:
+[:00000010] [2016-02-07 11:05:26] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:05:26] new access 34800395 Syc
+[:00000011] [2016-02-07 11:05:26] action /room
+[:00000011] [2016-02-07 11:05:26] body table:
+[:00000011] [2016-02-07 11:05:26] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:05:26] new access 34800395 Syc
+[:00000012] [2016-02-07 11:05:26] action /room
+[:00000012] [2016-02-07 11:05:26] body table:
+[:00000012] [2016-02-07 11:05:26] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:05:26] new access 34800395 Syc
+[:00000013] [2016-02-07 11:05:26] action /room
+[:00000013] [2016-02-07 11:05:26] body table:
+[:00000013] [2016-02-07 11:05:26] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:05:26] new access 34800395 Syc
+[:00000014] [2016-02-07 11:05:26] action /room
+[:00000014] [2016-02-07 11:05:26] body table:
+[:00000014] [2016-02-07 11:05:26] {
+  action = "set",
+  enable = false,
+  roomid = 43,
+  rule = "4",
+  status = "prepare",
+  version = 17,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:26] new access 34800395 Syc
+[:0000000b] [2016-02-07 11:05:26] action /room
+[:0000000b] [2016-02-07 11:05:26] body table:
+[:0000000b] [2016-02-07 11:05:26] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 18,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:26] new access 34812148 沈陈霄小号
+[:0000000e] [2016-02-07 11:05:26] action /room
+[:0000000e] [2016-02-07 11:05:26] body table:
+[:0000000e] [2016-02-07 11:05:26] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 18,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:26] new access 34807118 沈陈霄
+[:0000000f] [2016-02-07 11:05:26] action /room
+[:0000000f] [2016-02-07 11:05:26] body table:
+[:0000000f] [2016-02-07 11:05:26] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 18,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:05:27] new access 34812160 u34812160
+[:00000010] [2016-02-07 11:05:27] action /room
+[:00000010] [2016-02-07 11:05:27] body table:
+[:00000010] [2016-02-07 11:05:27] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 18,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:05:27] new access 34800395 Syc
+[:00000011] [2016-02-07 11:05:27] action /room
+[:00000011] [2016-02-07 11:05:27] body table:
+[:00000011] [2016-02-07 11:05:27] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:05:27] new access 34800395 Syc
+[:00000012] [2016-02-07 11:05:27] action /room
+[:00000012] [2016-02-07 11:05:27] body table:
+[:00000012] [2016-02-07 11:05:27] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 18,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:05:27] new access 34814278 u34814278
+[:00000013] [2016-02-07 11:05:27] action /43
+[:00000013] [2016-02-07 11:05:27] body table:
+[:00000013] [2016-02-07 11:05:27] ""
+[:00000014] [2016-02-07 11:05:27] new access 34800395 Syc
+[:00000014] [2016-02-07 11:05:27] action /room
+[:00000014] [2016-02-07 11:05:27] body table:
+[:00000014] [2016-02-07 11:05:27] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 19,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:27] new access 34812160 u34812160
+[:0000000b] [2016-02-07 11:05:27] action /room
+[:0000000b] [2016-02-07 11:05:27] body table:
+[:0000000b] [2016-02-07 11:05:27] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 19,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:27] new access 34812148 沈陈霄小号
+[:0000000e] [2016-02-07 11:05:27] action /room
+[:0000000e] [2016-02-07 11:05:27] body table:
+[:0000000e] [2016-02-07 11:05:27] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 19,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:27] new access 34807118 沈陈霄
+[:0000000f] [2016-02-07 11:05:27] action /room
+[:0000000f] [2016-02-07 11:05:27] body table:
+[:0000000f] [2016-02-07 11:05:27] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 19,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:05:30] new access 34814278 u34814278
+[:00000014] [2016-02-07 11:05:30] action /room
+[:00000014] [2016-02-07 11:05:30] body table:
+[:00000014] [2016-02-07 11:05:30] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:30] new access 34814278 u34814278
+[:0000000b] [2016-02-07 11:05:30] action /room
+[:0000000b] [2016-02-07 11:05:30] body table:
+[:0000000b] [2016-02-07 11:05:30] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 19,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:31] new access 34800395 Syc
+[:0000000e] [2016-02-07 11:05:31] action /room
+[:0000000e] [2016-02-07 11:05:31] body table:
+[:0000000e] [2016-02-07 11:05:31] {
+  action = "set",
+  enable = false,
+  roomid = 43,
+  rule = "4",
+  status = "prepare",
+  version = 19,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:31] new access 34800395 Syc
+[:0000000f] [2016-02-07 11:05:31] action /room
+[:0000000f] [2016-02-07 11:05:31] body table:
+[:0000000f] [2016-02-07 11:05:31] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:05:32] new access 34800395 Syc
+[:00000010] [2016-02-07 11:05:32] action /room
+[:00000010] [2016-02-07 11:05:32] body table:
+[:00000010] [2016-02-07 11:05:32] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 19,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:05:32] new access 34812160 u34812160
+[:00000011] [2016-02-07 11:05:32] action /room
+[:00000011] [2016-02-07 11:05:32] body table:
+[:00000011] [2016-02-07 11:05:32] {
+  action = "setname",
+  roomid = 43,
+  status = "prepare",
+  username = "居烨",
+  version = 19,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:05:33] new access 34812160 居烨
+[:00000012] [2016-02-07 11:05:33] action /room
+[:00000012] [2016-02-07 11:05:33] body table:
+[:00000012] [2016-02-07 11:05:33] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 20,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:05:33] new access 34812160 居烨
+[:00000013] [2016-02-07 11:05:33] action /room
+[:00000013] [2016-02-07 11:05:33] body table:
+[:00000013] [2016-02-07 11:05:33] {
+  action = "ready",
+  enable = true,
+  roomid = 43,
+  status = "prepare",
+  version = 19,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:05:33] new access 34812148 沈陈霄小号
+[:00000014] [2016-02-07 11:05:33] action /room
+[:00000014] [2016-02-07 11:05:33] body table:
+[:00000014] [2016-02-07 11:05:33] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 20,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:33] new access 34807118 沈陈霄
+[:0000000b] [2016-02-07 11:05:33] action /room
+[:0000000b] [2016-02-07 11:05:33] body table:
+[:0000000b] [2016-02-07 11:05:33] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 20,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:33] new access 34800395 Syc
+[:0000000e] [2016-02-07 11:05:33] action /room
+[:0000000e] [2016-02-07 11:05:33] body table:
+[:0000000e] [2016-02-07 11:05:33] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 20,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:33] new access 34814278 u34814278
+[:0000000f] [2016-02-07 11:05:33] action /room
+[:0000000f] [2016-02-07 11:05:33] body table:
+[:0000000f] [2016-02-07 11:05:33] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 20,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:05:33] new access 34812160 居烨
+[:00000010] [2016-02-07 11:05:33] action /room
+[:00000010] [2016-02-07 11:05:33] body table:
+[:00000010] [2016-02-07 11:05:33] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:05:33] new access 34812160 居烨
+[:00000011] [2016-02-07 11:05:33] action /room
+[:00000011] [2016-02-07 11:05:33] body table:
+[:00000011] [2016-02-07 11:05:33] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 21,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:05:33] new access 34812148 沈陈霄小号
+[:00000012] [2016-02-07 11:05:33] action /room
+[:00000012] [2016-02-07 11:05:33] body table:
+[:00000012] [2016-02-07 11:05:33] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 21,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:05:33] new access 34807118 沈陈霄
+[:00000013] [2016-02-07 11:05:33] action /room
+[:00000013] [2016-02-07 11:05:33] body table:
+[:00000013] [2016-02-07 11:05:33] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 21,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:05:33] new access 34800395 Syc
+[:00000014] [2016-02-07 11:05:33] action /room
+[:00000014] [2016-02-07 11:05:33] body table:
+[:00000014] [2016-02-07 11:05:33] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 21,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:33] new access 34814278 u34814278
+[:0000000b] [2016-02-07 11:05:33] action /room
+[:0000000b] [2016-02-07 11:05:33] body table:
+[:0000000b] [2016-02-07 11:05:33] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 21,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:35] new access 34814335 u34814335
+[:0000000e] [2016-02-07 11:05:35] action /43
+[:0000000e] [2016-02-07 11:05:35] body table:
+[:0000000e] [2016-02-07 11:05:35] ""
+[:0000000f] [2016-02-07 11:05:36] new access 34812148 沈陈霄小号
+[:0000000f] [2016-02-07 11:05:36] action /room
+[:0000000f] [2016-02-07 11:05:36] body table:
+[:0000000f] [2016-02-07 11:05:36] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 22,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:05:36] new access 34812160 居烨
+[:00000010] [2016-02-07 11:05:36] action /room
+[:00000010] [2016-02-07 11:05:36] body table:
+[:00000010] [2016-02-07 11:05:36] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 22,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:05:36] new access 34814278 u34814278
+[:00000011] [2016-02-07 11:05:36] action /room
+[:00000011] [2016-02-07 11:05:36] body table:
+[:00000011] [2016-02-07 11:05:36] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 22,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:05:36] new access 34800395 Syc
+[:00000012] [2016-02-07 11:05:36] action /room
+[:00000012] [2016-02-07 11:05:36] body table:
+[:00000012] [2016-02-07 11:05:36] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 22,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:05:36] new access 34812223 u34812223
+[:00000013] [2016-02-07 11:05:36] action /43
+[:00000013] [2016-02-07 11:05:36] body table:
+[:00000013] [2016-02-07 11:05:36] ""
+[:00000014] [2016-02-07 11:05:36] new access 34807118 沈陈霄
+[:00000014] [2016-02-07 11:05:36] action /room
+[:00000014] [2016-02-07 11:05:36] body table:
+[:00000014] [2016-02-07 11:05:36] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 22,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:36] new access 34812148 沈陈霄小号
+[:0000000b] [2016-02-07 11:05:36] action /room
+[:0000000b] [2016-02-07 11:05:36] body table:
+[:0000000b] [2016-02-07 11:05:36] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 23,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:36] new access 34800395 Syc
+[:0000000e] [2016-02-07 11:05:36] action /room
+[:0000000e] [2016-02-07 11:05:36] body table:
+[:0000000e] [2016-02-07 11:05:36] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 23,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:36] new access 34812160 居烨
+[:0000000f] [2016-02-07 11:05:36] action /room
+[:0000000f] [2016-02-07 11:05:36] body table:
+[:0000000f] [2016-02-07 11:05:36] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 23,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:05:37] new access 34814278 u34814278
+[:00000014] [2016-02-07 11:05:37] action /room
+[:00000014] [2016-02-07 11:05:37] body table:
+[:00000014] [2016-02-07 11:05:37] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 23,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:37] new access 34807118 沈陈霄
+[:0000000b] [2016-02-07 11:05:37] action /room
+[:0000000b] [2016-02-07 11:05:37] body table:
+[:0000000b] [2016-02-07 11:05:37] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 23,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:37] new access 34812223 u34812223
+[:0000000f] [2016-02-07 11:05:37] action /room
+[:0000000f] [2016-02-07 11:05:37] body table:
+[:0000000f] [2016-02-07 11:05:37] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:05:38] new access 34812223 u34812223
+[:00000011] [2016-02-07 11:05:38] action /room
+[:00000011] [2016-02-07 11:05:38] body table:
+[:00000011] [2016-02-07 11:05:38] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 23,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:05:44] new access 34812223 u34812223
+[:00000014] [2016-02-07 11:05:44] action /room
+[:00000014] [2016-02-07 11:05:44] body table:
+[:00000014] [2016-02-07 11:05:44] {
+  action = "setname",
+  roomid = 43,
+  status = "prepare",
+  username = "万兴欣",
+  version = 23,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:45] new access 34812223 万兴欣
+[:0000000b] [2016-02-07 11:05:45] action /room
+[:0000000b] [2016-02-07 11:05:45] body table:
+[:0000000b] [2016-02-07 11:05:45] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 24,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:45] new access 34807118 沈陈霄
+[:0000000e] [2016-02-07 11:05:45] action /room
+[:0000000e] [2016-02-07 11:05:45] body table:
+[:0000000e] [2016-02-07 11:05:45] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 24,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:45] new access 34812223 万兴欣
+[:0000000f] [2016-02-07 11:05:45] action /room
+[:0000000f] [2016-02-07 11:05:45] body table:
+[:0000000f] [2016-02-07 11:05:45] {
+  action = "ready",
+  enable = true,
+  roomid = 43,
+  status = "prepare",
+  version = 24,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:05:45] new access 34812148 沈陈霄小号
+[:00000010] [2016-02-07 11:05:45] action /room
+[:00000010] [2016-02-07 11:05:45] body table:
+[:00000010] [2016-02-07 11:05:45] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 24,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:05:45] new access 34812160 居烨
+[:00000011] [2016-02-07 11:05:45] action /room
+[:00000011] [2016-02-07 11:05:45] body table:
+[:00000011] [2016-02-07 11:05:45] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 24,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:05:45] new access 34814278 u34814278
+[:00000012] [2016-02-07 11:05:45] action /room
+[:00000012] [2016-02-07 11:05:45] body table:
+[:00000012] [2016-02-07 11:05:45] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 24,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:05:45] new access 34814335 u34814335
+[:00000013] [2016-02-07 11:05:45] action /room
+[:00000013] [2016-02-07 11:05:45] body table:
+[:00000013] [2016-02-07 11:05:45] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:05:45] new access 34807118 沈陈霄
+[:00000014] [2016-02-07 11:05:45] action /room
+[:00000014] [2016-02-07 11:05:45] body table:
+[:00000014] [2016-02-07 11:05:45] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 25,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:45] new access 34812223 万兴欣
+[:0000000b] [2016-02-07 11:05:45] action /room
+[:0000000b] [2016-02-07 11:05:45] body table:
+[:0000000b] [2016-02-07 11:05:45] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:45] new access 34812148 沈陈霄小号
+[:0000000e] [2016-02-07 11:05:45] action /room
+[:0000000e] [2016-02-07 11:05:45] body table:
+[:0000000e] [2016-02-07 11:05:45] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 25,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:45] new access 34812160 居烨
+[:0000000f] [2016-02-07 11:05:45] action /room
+[:0000000f] [2016-02-07 11:05:45] body table:
+[:0000000f] [2016-02-07 11:05:45] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 25,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:05:45] new access 34814335 u34814335
+[:00000010] [2016-02-07 11:05:45] action /room
+[:00000010] [2016-02-07 11:05:45] body table:
+[:00000010] [2016-02-07 11:05:45] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 25,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:05:45] new access 34814278 u34814278
+[:00000011] [2016-02-07 11:05:45] action /room
+[:00000011] [2016-02-07 11:05:45] body table:
+[:00000011] [2016-02-07 11:05:45] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 25,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:05:46] new access 34812223 万兴欣
+[:00000012] [2016-02-07 11:05:46] action /room
+[:00000012] [2016-02-07 11:05:46] body table:
+[:00000012] [2016-02-07 11:05:46] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 25,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:05:48] new access 34800395 Syc
+[:00000013] [2016-02-07 11:05:48] action /43
+[:00000013] [2016-02-07 11:05:48] body table:
+[:00000013] [2016-02-07 11:05:48] ""
+[:00000014] [2016-02-07 11:05:49] new access 34812223 万兴欣
+[:00000014] [2016-02-07 11:05:49] action /room
+[:00000014] [2016-02-07 11:05:49] body table:
+[:00000014] [2016-02-07 11:05:49] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 26,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:49] new access 34812148 沈陈霄小号
+[:0000000b] [2016-02-07 11:05:49] action /room
+[:0000000b] [2016-02-07 11:05:49] body table:
+[:0000000b] [2016-02-07 11:05:49] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 26,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:49] new access 34812160 居烨
+[:0000000e] [2016-02-07 11:05:49] action /room
+[:0000000e] [2016-02-07 11:05:49] body table:
+[:0000000e] [2016-02-07 11:05:49] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 26,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:49] new access 34807118 沈陈霄
+[:0000000f] [2016-02-07 11:05:49] action /room
+[:0000000f] [2016-02-07 11:05:49] body table:
+[:0000000f] [2016-02-07 11:05:49] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 26,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:05:49] new access 34814335 u34814335
+[:00000010] [2016-02-07 11:05:49] action /room
+[:00000010] [2016-02-07 11:05:49] body table:
+[:00000010] [2016-02-07 11:05:49] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 26,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:05:49] new access 34814278 u34814278
+[:00000013] [2016-02-07 11:05:49] action /room
+[:00000013] [2016-02-07 11:05:49] body table:
+[:00000013] [2016-02-07 11:05:49] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 26,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:49] new access 34800395 Syc
+[:0000000e] [2016-02-07 11:05:49] action /room
+[:0000000e] [2016-02-07 11:05:49] body table:
+[:0000000e] [2016-02-07 11:05:49] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:50] new access 34800395 Syc
+[:0000000f] [2016-02-07 11:05:50] action /room
+[:0000000f] [2016-02-07 11:05:50] body table:
+[:0000000f] [2016-02-07 11:05:50] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 26,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:05:57] new access 34814335 u34814335
+[:00000010] [2016-02-07 11:05:57] action /room
+[:00000010] [2016-02-07 11:05:57] body table:
+[:00000010] [2016-02-07 11:05:57] {
+  action = "setname",
+  roomid = 43,
+  status = "prepare",
+  username = "u34814335",
+  version = 26,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:05:58] new access 34814335 u34814335
+[:00000011] [2016-02-07 11:05:58] action /room
+[:00000011] [2016-02-07 11:05:58] body table:
+[:00000011] [2016-02-07 11:05:58] {
+  action = "ready",
+  enable = true,
+  roomid = 43,
+  status = "prepare",
+  version = 26,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:05:58] new access 34814335 u34814335
+[:00000012] [2016-02-07 11:05:58] action /room
+[:00000012] [2016-02-07 11:05:58] body table:
+[:00000012] [2016-02-07 11:05:58] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:05:58] new access 34812223 万兴欣
+[:00000013] [2016-02-07 11:05:58] action /room
+[:00000013] [2016-02-07 11:05:58] body table:
+[:00000013] [2016-02-07 11:05:58] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 27,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:05:58] new access 34812148 沈陈霄小号
+[:00000014] [2016-02-07 11:05:58] action /room
+[:00000014] [2016-02-07 11:05:58] body table:
+[:00000014] [2016-02-07 11:05:58] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 27,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:05:58] new access 34812160 居烨
+[:0000000b] [2016-02-07 11:05:58] action /room
+[:0000000b] [2016-02-07 11:05:58] body table:
+[:0000000b] [2016-02-07 11:05:58] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 27,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:05:58] new access 34807118 沈陈霄
+[:0000000e] [2016-02-07 11:05:58] action /room
+[:0000000e] [2016-02-07 11:05:58] body table:
+[:0000000e] [2016-02-07 11:05:58] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 27,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:05:59] new access 34814335 u34814335
+[:0000000f] [2016-02-07 11:05:59] action /room
+[:0000000f] [2016-02-07 11:05:59] body table:
+[:0000000f] [2016-02-07 11:05:59] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 27,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:05:59] new access 34800395 Syc
+[:00000010] [2016-02-07 11:05:59] action /43
+[:00000010] [2016-02-07 11:05:59] body table:
+[:00000010] [2016-02-07 11:05:59] ""
+[:00000011] [2016-02-07 11:06:00] new access 34814335 u34814335
+[:00000011] [2016-02-07 11:06:00] action /room
+[:00000011] [2016-02-07 11:06:00] body table:
+[:00000011] [2016-02-07 11:06:00] {
+  action = "begin_game",
+  roomid = 43,
+  status = "prepare",
+  version = 27,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:00] idname 圆桌骑士(正)
+[:00000017] [2016-02-07 11:06:00] role_visible:
+[:00000017] [2016-02-07 11:06:00] { false, false, false, false, false, false, false, false, false, false }
+[:00000012] [2016-02-07 11:06:00] new access 34814335 u34814335
+[:00000012] [2016-02-07 11:06:00] action /room
+[:00000012] [2016-02-07 11:06:00] body table:
+[:00000012] [2016-02-07 11:06:00] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 28,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:00] idname 圆桌骑士(正)
+[:00000017] [2016-02-07 11:06:00] role_visible:
+[:00000017] [2016-02-07 11:06:00] { false, false, false, false, false, false, false, false, false, false }
+[:00000013] [2016-02-07 11:06:00] new access 34812148 沈陈霄小号
+[:00000013] [2016-02-07 11:06:00] action /room
+[:00000013] [2016-02-07 11:06:00] body table:
+[:00000013] [2016-02-07 11:06:00] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 28,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:00] idname 刺客(邪)
+[:00000017] [2016-02-07 11:06:00] role_visible:
+[:00000017] [2016-02-07 11:06:00] { false, false, false, false, false, 4, 4, true, false, 4 }
+[:00000017] [2016-02-07 11:06:00] get visibal idname_res 邪
+[:00000014] [2016-02-07 11:06:00] new access 34807118 沈陈霄
+[:00000014] [2016-02-07 11:06:00] action /room
+[:00000014] [2016-02-07 11:06:00] body table:
+[:00000014] [2016-02-07 11:06:00] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 28,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:00] idname 梅林(正)
+[:00000017] [2016-02-07 11:06:00] role_visible:
+[:00000017] [2016-02-07 11:06:00] { false, false, false, false, 4, false, 4, 4, 4, 4 }
+[:00000017] [2016-02-07 11:06:00] get visibal idname_res 邪
+[:00000017] [2016-02-07 11:06:00] get visibal idname_res 邪
+[:0000000b] [2016-02-07 11:06:00] new access 34812160 居烨
+[:0000000b] [2016-02-07 11:06:00] action /room
+[:0000000b] [2016-02-07 11:06:00] body table:
+[:0000000b] [2016-02-07 11:06:00] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 28,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:00] idname 圆桌骑士(正)
+[:00000017] [2016-02-07 11:06:00] role_visible:
+[:00000017] [2016-02-07 11:06:00] { false, false, false, false, false, false, false, false, false, false }
+[:0000000e] [2016-02-07 11:06:00] new access 34812223 万兴欣
+[:0000000e] [2016-02-07 11:06:00] action /room
+[:0000000e] [2016-02-07 11:06:00] body table:
+[:0000000e] [2016-02-07 11:06:00] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 28,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:00] idname 莫甘娜(邪)
+[:00000017] [2016-02-07 11:06:00] role_visible:
+[:00000017] [2016-02-07 11:06:00] { false, false, false, false, 4, 4, false, true, false, 4 }
+[:00000017] [2016-02-07 11:06:00] get visibal idname_res 邪
+[:0000000f] [2016-02-07 11:06:00] new access 34814335 u34814335
+[:0000000f] [2016-02-07 11:06:00] action /room
+[:0000000f] [2016-02-07 11:06:00] body table:
+[:0000000f] [2016-02-07 11:06:00] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:00] idname 圆桌骑士(正)
+[:00000017] [2016-02-07 11:06:00] role_visible:
+[:00000017] [2016-02-07 11:06:00] { false, false, false, false, false, false, false, false, false, false }
+[:00000010] [2016-02-07 11:06:00] new access 34814335 u34814335
+[:00000010] [2016-02-07 11:06:00] action /room
+[:00000010] [2016-02-07 11:06:00] body table:
+[:00000010] [2016-02-07 11:06:00] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:00] idname 圆桌骑士(正)
+[:00000017] [2016-02-07 11:06:00] role_visible:
+[:00000017] [2016-02-07 11:06:00] { false, false, false, false, false, false, false, false, false, false }
+[:0000000b] [2016-02-07 11:06:00] new access 34812148 沈陈霄小号
+[:0000000b] [2016-02-07 11:06:00] action /room
+[:0000000b] [2016-02-07 11:06:00] body table:
+[:0000000b] [2016-02-07 11:06:00] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:00] idname 刺客(邪)
+[:00000017] [2016-02-07 11:06:00] role_visible:
+[:00000017] [2016-02-07 11:06:00] { false, false, false, false, false, 4, 4, true, false, 4 }
+[:00000017] [2016-02-07 11:06:00] get visibal idname_res 邪
+[:0000000e] [2016-02-07 11:06:00] new access 34812160 居烨
+[:0000000e] [2016-02-07 11:06:00] action /room
+[:0000000e] [2016-02-07 11:06:00] body table:
+[:0000000e] [2016-02-07 11:06:00] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:00] idname 圆桌骑士(正)
+[:00000017] [2016-02-07 11:06:00] role_visible:
+[:00000017] [2016-02-07 11:06:00] { false, false, false, false, false, false, false, false, false, false }
+[:0000000f] [2016-02-07 11:06:00] new access 34814335 u34814335
+[:0000000f] [2016-02-07 11:06:00] action /room
+[:0000000f] [2016-02-07 11:06:00] body table:
+[:0000000f] [2016-02-07 11:06:00] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 29,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:06:00] new access 34812223 万兴欣
+[:00000010] [2016-02-07 11:06:00] action /room
+[:00000010] [2016-02-07 11:06:00] body table:
+[:00000010] [2016-02-07 11:06:00] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:00] idname 莫甘娜(邪)
+[:00000017] [2016-02-07 11:06:00] role_visible:
+[:00000017] [2016-02-07 11:06:00] { false, false, false, false, 4, 4, false, true, false, 4 }
+[:00000017] [2016-02-07 11:06:00] get visibal idname_res 邪
+[:00000011] [2016-02-07 11:06:00] new access 34812148 沈陈霄小号
+[:00000011] [2016-02-07 11:06:00] action /room
+[:00000011] [2016-02-07 11:06:00] body table:
+[:00000011] [2016-02-07 11:06:00] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 29,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:06:00] new access 34800395 Syc
+[:00000012] [2016-02-07 11:06:00] action /room
+[:00000012] [2016-02-07 11:06:00] body table:
+[:00000012] [2016-02-07 11:06:00] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:00] idname 派西维尔(正)
+[:00000017] [2016-02-07 11:06:00] role_visible:
+[:00000017] [2016-02-07 11:06:00] { 5, false, false, false, false, false, 5, false, false, false }
+[:00000017] [2016-02-07 11:06:00] get visibal idname_res 梅林
+[:00000017] [2016-02-07 11:06:00] get visibal idname_res 梅林
+[:00000013] [2016-02-07 11:06:00] new access 34812223 万兴欣
+[:00000013] [2016-02-07 11:06:00] action /room
+[:00000013] [2016-02-07 11:06:00] body table:
+[:00000013] [2016-02-07 11:06:00] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 29,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:06:01] new access 34807118 沈陈霄
+[:00000014] [2016-02-07 11:06:01] action /room
+[:00000014] [2016-02-07 11:06:01] body table:
+[:00000014] [2016-02-07 11:06:01] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:01] idname 梅林(正)
+[:00000017] [2016-02-07 11:06:01] role_visible:
+[:00000017] [2016-02-07 11:06:01] { false, false, false, false, 4, false, 4, 4, 4, 4 }
+[:00000017] [2016-02-07 11:06:01] get visibal idname_res 邪
+[:00000017] [2016-02-07 11:06:01] get visibal idname_res 邪
+[:0000000b] [2016-02-07 11:06:01] new access 34800395 Syc
+[:0000000b] [2016-02-07 11:06:01] action /room
+[:0000000b] [2016-02-07 11:06:01] body table:
+[:0000000b] [2016-02-07 11:06:01] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:01] idname 派西维尔(正)
+[:00000017] [2016-02-07 11:06:01] role_visible:
+[:00000017] [2016-02-07 11:06:01] { 5, false, false, false, false, false, 5, false, false, false }
+[:00000017] [2016-02-07 11:06:01] get visibal idname_res 梅林
+[:00000017] [2016-02-07 11:06:01] get visibal idname_res 梅林
+[:0000000e] [2016-02-07 11:06:01] new access 34807118 沈陈霄
+[:0000000e] [2016-02-07 11:06:01] action /room
+[:0000000e] [2016-02-07 11:06:01] body table:
+[:0000000e] [2016-02-07 11:06:01] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 29,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:06:01] new access 34800395 Syc
+[:0000000f] [2016-02-07 11:06:01] action /room
+[:0000000f] [2016-02-07 11:06:01] body table:
+[:0000000f] [2016-02-07 11:06:01] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 29,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:06:33] new access 34814278 u34814278
+[:00000010] [2016-02-07 11:06:33] action /43
+[:00000010] [2016-02-07 11:06:33] body table:
+[:00000010] [2016-02-07 11:06:33] ""
+[:0000000b] [2016-02-07 11:06:35] new access 34814278 u34814278
+[:0000000b] [2016-02-07 11:06:35] action /room
+[:0000000b] [2016-02-07 11:06:35] body table:
+[:0000000b] [2016-02-07 11:06:35] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:06:43] new access 34812160 居烨
+[:0000000e] [2016-02-07 11:06:43] action /room
+[:0000000e] [2016-02-07 11:06:43] body table:
+[:0000000e] [2016-02-07 11:06:43] {
+  action = "stage",
+  roomid = 43,
+  stagelist = { "34812148", "34807118",
+    <metatable> = {
+      __jsontype = "array"
+    }
+  },
+  status = "game",
+  version = 29,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:43] idname 派西维尔(正)
+[:00000017] [2016-02-07 11:06:43] role_visible:
+[:00000017] [2016-02-07 11:06:43] { 5, false, false, false, false, false, 5, false, false, false }
+[:00000017] [2016-02-07 11:06:43] get visibal idname_res 梅林
+[:00000017] [2016-02-07 11:06:43] get visibal idname_res 梅林
+[:00000017] [2016-02-07 11:06:43] idname 梅林(正)
+[:00000017] [2016-02-07 11:06:43] role_visible:
+[:00000017] [2016-02-07 11:06:43] { false, false, false, false, 4, false, 4, 4, 4, 4 }
+[:00000017] [2016-02-07 11:06:43] get visibal idname_res 邪
+[:00000017] [2016-02-07 11:06:43] get visibal idname_res 邪
+[:00000017] [2016-02-07 11:06:43] idname 莫甘娜(邪)
+[:00000017] [2016-02-07 11:06:43] role_visible:
+[:00000017] [2016-02-07 11:06:43] { false, false, false, false, 4, 4, false, true, false, 4 }
+[:00000017] [2016-02-07 11:06:43] get visibal idname_res 邪
+[:00000017] [2016-02-07 11:06:43] idname 刺客(邪)
+[:00000017] [2016-02-07 11:06:43] role_visible:
+[:00000017] [2016-02-07 11:06:43] { false, false, false, false, false, 4, 4, true, false, 4 }
+[:00000017] [2016-02-07 11:06:43] get visibal idname_res 邪
+[:00000017] [2016-02-07 11:06:43] idname 圆桌骑士(正)
+[:00000017] [2016-02-07 11:06:43] role_visible:
+[:00000017] [2016-02-07 11:06:43] { false, false, false, false, false, false, false, false, false, false }
+[:0000000f] [2016-02-07 11:06:43] new access 34812160 居烨
+[:0000000f] [2016-02-07 11:06:43] action /room
+[:0000000f] [2016-02-07 11:06:43] body table:
+[:0000000f] [2016-02-07 11:06:43] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 29,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000017] [2016-02-07 11:06:43] idname 圆桌骑士(正)
+[:00000017] [2016-02-07 11:06:43] role_visible:
+[:00000017] [2016-02-07 11:06:43] { false, false, false, false, false, false, false, false, false, false }
+[:00000010] [2016-02-07 11:06:49] new access 34814278 u34814278
+[:00000010] [2016-02-07 11:06:49] action /room
+[:00000010] [2016-02-07 11:06:49] body table:
+[:00000010] [2016-02-07 11:06:49] {
+  action = "set",
+  enable = true,
+  roomid = 43,
+  rule = "6",
+  status = "prepare",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:06:49] new access 34814278 u34814278
+[:00000011] [2016-02-07 11:06:49] action /room
+[:00000011] [2016-02-07 11:06:49] body table:
+[:00000011] [2016-02-07 11:06:49] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:06:51] new access 34814278 u34814278
+[:00000012] [2016-02-07 11:06:51] action /room
+[:00000012] [2016-02-07 11:06:51] body table:
+[:00000012] [2016-02-07 11:06:51] {
+  action = "set",
+  enable = false,
+  roomid = 43,
+  rule = "6",
+  status = "prepare",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:06:51] new access 34814278 u34814278
+[:00000013] [2016-02-07 11:06:51] action /room
+[:00000013] [2016-02-07 11:06:51] body table:
+[:00000013] [2016-02-07 11:06:51] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:07:01] new access 34812223 万兴欣
+[:00000014] [2016-02-07 11:07:01] action /room
+[:00000014] [2016-02-07 11:07:01] body table:
+[:00000014] [2016-02-07 11:07:01] {
+  action = "vote",
+  approve = true,
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:07:01] new access 34812223 万兴欣
+[:0000000b] [2016-02-07 11:07:01] action /room
+[:0000000b] [2016-02-07 11:07:01] body table:
+[:0000000b] [2016-02-07 11:07:01] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:07:06] new access 34807118 沈陈霄
+[:0000000e] [2016-02-07 11:07:06] action /room
+[:0000000e] [2016-02-07 11:07:06] body table:
+[:0000000e] [2016-02-07 11:07:06] {
+  action = "vote",
+  approve = true,
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:07:06] new access 34807118 沈陈霄
+[:0000000f] [2016-02-07 11:07:06] action /room
+[:0000000f] [2016-02-07 11:07:06] body table:
+[:0000000f] [2016-02-07 11:07:06] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:07:07] new access 34814335 u34814335
+[:00000010] [2016-02-07 11:07:07] action /room
+[:00000010] [2016-02-07 11:07:07] body table:
+[:00000010] [2016-02-07 11:07:07] {
+  action = "vote",
+  approve = false,
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:07:07] new access 34814335 u34814335
+[:00000011] [2016-02-07 11:07:07] action /room
+[:00000011] [2016-02-07 11:07:07] body table:
+[:00000011] [2016-02-07 11:07:07] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:07:08] new access 34812148 沈陈霄小号
+[:00000012] [2016-02-07 11:07:08] action /room
+[:00000012] [2016-02-07 11:07:08] body table:
+[:00000012] [2016-02-07 11:07:08] {
+  action = "vote",
+  approve = true,
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:07:08] new access 34812148 沈陈霄小号
+[:00000013] [2016-02-07 11:07:08] action /room
+[:00000013] [2016-02-07 11:07:08] body table:
+[:00000013] [2016-02-07 11:07:08] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:07:11] new access 34812160 居烨
+[:00000014] [2016-02-07 11:07:11] action /room
+[:00000014] [2016-02-07 11:07:11] body table:
+[:00000014] [2016-02-07 11:07:11] {
+  action = "vote",
+  approve = true,
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:07:11] new access 34812160 居烨
+[:0000000b] [2016-02-07 11:07:11] action /room
+[:0000000b] [2016-02-07 11:07:11] body table:
+[:0000000b] [2016-02-07 11:07:11] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:08:02] new access 34812223 万兴欣
+[:0000000e] [2016-02-07 11:08:02] action /room
+[:0000000e] [2016-02-07 11:08:02] body table:
+[:0000000e] [2016-02-07 11:08:02] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:08:07] new access 34807118 沈陈霄
+[:0000000f] [2016-02-07 11:08:07] action /room
+[:0000000f] [2016-02-07 11:08:07] body table:
+[:0000000f] [2016-02-07 11:08:07] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:08:07] new access 34814335 u34814335
+[:00000010] [2016-02-07 11:08:07] action /room
+[:00000010] [2016-02-07 11:08:07] body table:
+[:00000010] [2016-02-07 11:08:07] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:08:09] new access 34812148 沈陈霄小号
+[:00000011] [2016-02-07 11:08:09] action /room
+[:00000011] [2016-02-07 11:08:09] body table:
+[:00000011] [2016-02-07 11:08:09] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:08:11] new access 34812160 居烨
+[:00000012] [2016-02-07 11:08:11] action /room
+[:00000012] [2016-02-07 11:08:11] body table:
+[:00000012] [2016-02-07 11:08:11] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:08:59] new access 34814278 u34814278
+[:00000013] [2016-02-07 11:08:59] action /43
+[:00000013] [2016-02-07 11:08:59] body table:
+[:00000013] [2016-02-07 11:08:59] ""
+[:00000010] [2016-02-07 11:09:02] new access 34812223 万兴欣
+[:00000010] [2016-02-07 11:09:02] action /room
+[:00000010] [2016-02-07 11:09:02] body table:
+[:00000010] [2016-02-07 11:09:02] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:09:02] new access 34814278 u34814278
+[:00000011] [2016-02-07 11:09:02] action /room
+[:00000011] [2016-02-07 11:09:02] body table:
+[:00000011] [2016-02-07 11:09:02] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:09:07] new access 34807118 沈陈霄
+[:00000012] [2016-02-07 11:09:07] action /room
+[:00000012] [2016-02-07 11:09:07] body table:
+[:00000012] [2016-02-07 11:09:07] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:09:09] new access 34812148 沈陈霄小号
+[:00000013] [2016-02-07 11:09:09] action /room
+[:00000013] [2016-02-07 11:09:09] body table:
+[:00000013] [2016-02-07 11:09:09] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:09:11] new access 33603109 u33603109
+[:00000014] [2016-02-07 11:09:11] action /43
+[:00000014] [2016-02-07 11:09:11] body table:
+[:00000014] [2016-02-07 11:09:11] ""
+[:0000000b] [2016-02-07 11:09:11] new access 34812160 居烨
+[:0000000b] [2016-02-07 11:09:11] action /room
+[:0000000b] [2016-02-07 11:09:11] body table:
+[:0000000b] [2016-02-07 11:09:11] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:09:12] new access 33603109 u33603109
+[:00000011] [2016-02-07 11:09:12] action /room
+[:00000011] [2016-02-07 11:09:12] body table:
+[:00000011] [2016-02-07 11:09:12] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:09:28] new access 33603109 u33603109
+[:00000012] [2016-02-07 11:09:28] action /room
+[:00000012] [2016-02-07 11:09:28] body table:
+[:00000012] [2016-02-07 11:09:28] {
+  action = "setname",
+  roomid = 43,
+  status = "prepare",
+  username = "梅林",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:09:57] new access 33603109 u33603109
+[:00000013] [2016-02-07 11:09:57] action /room
+[:00000013] [2016-02-07 11:09:57] body table:
+[:00000013] [2016-02-07 11:09:57] {
+  action = "setname",
+  roomid = 43,
+  status = "prepare",
+  username = "梅林",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:10:02] new access 34812223 万兴欣
+[:00000014] [2016-02-07 11:10:02] action /room
+[:00000014] [2016-02-07 11:10:02] body table:
+[:00000014] [2016-02-07 11:10:02] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:10:05] new access 33603109 u33603109
+[:0000000b] [2016-02-07 11:10:05] action /room
+[:0000000b] [2016-02-07 11:10:05] body table:
+[:0000000b] [2016-02-07 11:10:05] {
+  action = "setname",
+  roomid = 43,
+  status = "prepare",
+  username = "梅林",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:10:07] new access 33603109 u33603109
+[:0000000e] [2016-02-07 11:10:07] action /room
+[:0000000e] [2016-02-07 11:10:07] body table:
+[:0000000e] [2016-02-07 11:10:07] {
+  action = "setname",
+  roomid = 43,
+  status = "prepare",
+  username = "梅林",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:10:07] new access 34807118 沈陈霄
+[:0000000f] [2016-02-07 11:10:07] action /room
+[:0000000f] [2016-02-07 11:10:07] body table:
+[:0000000f] [2016-02-07 11:10:07] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:10:09] new access 34812148 沈陈霄小号
+[:00000010] [2016-02-07 11:10:09] action /room
+[:00000010] [2016-02-07 11:10:09] body table:
+[:00000010] [2016-02-07 11:10:09] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:10:12] new access 34812160 居烨
+[:00000011] [2016-02-07 11:10:12] action /room
+[:00000011] [2016-02-07 11:10:12] body table:
+[:00000011] [2016-02-07 11:10:12] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:10:49] new access 33603109 u33603109
+[:00000012] [2016-02-07 11:10:49] action /room
+[:00000012] [2016-02-07 11:10:49] body table:
+[:00000012] [2016-02-07 11:10:49] {
+  action = "set",
+  enable = true,
+  roomid = 43,
+  rule = "1",
+  status = "prepare",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:10:49] new access 33603109 u33603109
+[:00000013] [2016-02-07 11:10:49] action /room
+[:00000013] [2016-02-07 11:10:49] body table:
+[:00000013] [2016-02-07 11:10:49] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:10:50] new access 33603109 u33603109
+[:00000014] [2016-02-07 11:10:50] action /room
+[:00000014] [2016-02-07 11:10:50] body table:
+[:00000014] [2016-02-07 11:10:50] {
+  action = "set",
+  enable = true,
+  roomid = 43,
+  rule = "2",
+  status = "prepare",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:10:50] new access 33603109 u33603109
+[:0000000b] [2016-02-07 11:10:50] action /room
+[:0000000b] [2016-02-07 11:10:50] body table:
+[:0000000b] [2016-02-07 11:10:50] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:10:51] new access 33603109 u33603109
+[:0000000e] [2016-02-07 11:10:51] action /room
+[:0000000e] [2016-02-07 11:10:51] body table:
+[:0000000e] [2016-02-07 11:10:51] {
+  action = "set",
+  enable = true,
+  roomid = 43,
+  rule = "3",
+  status = "prepare",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:10:51] new access 33603109 u33603109
+[:0000000f] [2016-02-07 11:10:51] action /room
+[:0000000f] [2016-02-07 11:10:51] body table:
+[:0000000f] [2016-02-07 11:10:51] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:10:52] new access 33603109 u33603109
+[:00000010] [2016-02-07 11:10:52] action /room
+[:00000010] [2016-02-07 11:10:52] body table:
+[:00000010] [2016-02-07 11:10:52] {
+  action = "set",
+  enable = true,
+  roomid = 43,
+  rule = "4",
+  status = "prepare",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:10:52] new access 33603109 u33603109
+[:00000011] [2016-02-07 11:10:52] action /room
+[:00000011] [2016-02-07 11:10:52] body table:
+[:00000011] [2016-02-07 11:10:52] {
+  action = "request",
+  roomid = 43,
+  status = "prepare",
+  version = 0,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:10:54] new access 33603109 u33603109
+[:00000012] [2016-02-07 11:10:54] action /room
+[:00000012] [2016-02-07 11:10:54] body table:
+[:00000012] [2016-02-07 11:10:54] {
+  action = "setname",
+  roomid = 43,
+  status = "prepare",
+  username = "梅林",
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:11:02] new access 34812223 万兴欣
+[:00000013] [2016-02-07 11:11:02] action /room
+[:00000013] [2016-02-07 11:11:02] body table:
+[:00000013] [2016-02-07 11:11:02] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000014] [2016-02-07 11:11:07] new access 34807118 沈陈霄
+[:00000014] [2016-02-07 11:11:07] action /room
+[:00000014] [2016-02-07 11:11:07] body table:
+[:00000014] [2016-02-07 11:11:07] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000b] [2016-02-07 11:11:12] new access 34812160 居烨
+[:0000000b] [2016-02-07 11:11:12] action /room
+[:0000000b] [2016-02-07 11:11:12] body table:
+[:0000000b] [2016-02-07 11:11:12] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000e] [2016-02-07 11:12:03] new access 34812223 万兴欣
+[:0000000e] [2016-02-07 11:12:03] action /room
+[:0000000e] [2016-02-07 11:12:03] body table:
+[:0000000e] [2016-02-07 11:12:03] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:0000000f] [2016-02-07 11:12:08] new access 34807118 沈陈霄
+[:0000000f] [2016-02-07 11:12:08] action /room
+[:0000000f] [2016-02-07 11:12:08] body table:
+[:0000000f] [2016-02-07 11:12:08] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000010] [2016-02-07 11:12:12] new access 34812160 居烨
+[:00000010] [2016-02-07 11:12:12] action /room
+[:00000010] [2016-02-07 11:12:12] body table:
+[:00000010] [2016-02-07 11:12:12] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000011] [2016-02-07 11:13:03] new access 34812223 万兴欣
+[:00000011] [2016-02-07 11:13:03] action /room
+[:00000011] [2016-02-07 11:13:03] body table:
+[:00000011] [2016-02-07 11:13:03] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000012] [2016-02-07 11:13:08] new access 34807118 沈陈霄
+[:00000012] [2016-02-07 11:13:08] action /room
+[:00000012] [2016-02-07 11:13:08] body table:
+[:00000012] [2016-02-07 11:13:08] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
+[:00000013] [2016-02-07 11:13:12] new access 34812160 居烨
+[:00000013] [2016-02-07 11:13:12] action /room
+[:00000013] [2016-02-07 11:13:12] body table:
+[:00000013] [2016-02-07 11:13:12] {
+  action = "request",
+  roomid = 43,
+  status = "game",
+  version = 30,
+  <metatable> = {
+    __jsontype = "object"
+  }
+}
