@@ -112,9 +112,6 @@ local function handle_socket(id)
                 local userid, username = get_userid(header)
 				local f = action_method[action] or enter_room
                 log.printf("new access %d %s", userid,username);
-                log.printf("action %s", action);
-                log.printf("body table:");
-                log.print_r(body);
                 
                 local ret, c = f(body, userid, username, action)
                 if type(ret) ~= "string" then

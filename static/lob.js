@@ -7,11 +7,19 @@ document.addEventListener("DOMContentLoaded", function(){
         create_room()
     });
 
+    Ejoy('show-rule').on('click', function(){
+        show_rule();
+    });
+
     Ejoy('contine').on('click', function(e){
         var room_number = e.target.previousElementSibling.value
         //check room_number
         join_room(room_number)
     });
+
+    function show_rule(){
+        location.href = "static/rule.html";
+    }
 
     function get_name(){
         var req = {
@@ -21,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function(){
             Ejoy('user-name').html(resp.username)
         })
 
-    };
+    }
 
     function create_room(){
         var req = {
