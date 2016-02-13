@@ -98,13 +98,13 @@ ul {
     text-align: center;
 }
 .status_0:before{
-    content: "✔";
+    content: "√";
 }
 .status_1:before{
-    content: "✘";
+    content: "×";
 }
 .status_2:before{
-    content: "☺";
+    content: "B";
 }
 
 .room_rule p:after{
@@ -174,14 +174,15 @@ input.room_number{
 }
 .game .role .role-visible{
     overflow: hidden;
-    height: 50px;
+    _height:50px; 
+    min-height:50px;
 }
 .game .role .role-visible span{
     display: block;
     float: left;
     width: 45%;
-    text-align: center;
-    padding: 4px;
+    text-align: left;
+    padding: 3px;
 }
 
 .game .role .role-button{
