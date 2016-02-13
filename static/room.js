@@ -177,6 +177,9 @@ document.addEventListener("DOMContentLoaded", function(){
             if(!name){
                 return alert("请输入一个新名字");
             }
+            if(name.length > 10){
+                return alert("名字最大长度不能超过10");
+            }
             set_user_name(name)
         })
 

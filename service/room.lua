@@ -54,6 +54,7 @@ local function enter_room(userid, username)
 		end
 		u.username = username
 	else
+        log.printf('new user %s enter room',username);
 		R.info.user_tbl[userid] = {
 			userid = userid,
 			username = username,
@@ -101,8 +102,6 @@ local function gameinfo(userid)
     local identity_name = rule.role[u.identity]
     log.printf('idname %s',identity_name);
     local role_visible = rule.visible[u.identity]
-    log.printf('role_visible:');
-    log.print_r(role_visible);
     local tmp_information = {}
     for _, u in pairs(R.info.user_tbl) do
         local visible = role_visible[u.identity]
@@ -118,7 +117,7 @@ local function gameinfo(userid)
                 identity_name = rule.role[u.identity]
             end
             if identity_name then
-                log.printf('get visibal idname_res %s',identity_name);
+                log.printf('get %s visibal idname_res %s',u.username,identity_name);
                 table.insert(tmp_information, {username = u.username, identity = identity_name})
             end
         end
@@ -280,6 +279,7 @@ function api.setname(args)
 	local userid = args.userid
 	local username = args.username
 	local u = R.info.user_tbl[userid]
+    log.printf('user id %d set  name %s',args.userid,args.username)
 	if u.username ~= username then
 		skynet.call(userservice, "lua", userid, username)
 		u.username = username
