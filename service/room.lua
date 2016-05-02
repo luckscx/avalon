@@ -147,7 +147,7 @@ local function gameinfo(userid)
         evil_count = #R.info.uidlist - rule.camp_good[#R.info.uidlist],
         gameinfo = {round = R.info.round, pass = R.info.pass, leader = R.info.leader,
                     stage = stagel, mode = R.info.mode, history = hist,
-                    need = R.stage_per_round[R.info.round], round_success = R.info.round_success},
+                    need = R.stage_per_round[R.info.round], round_success = R.info.round_success,round_failed = R.info.round_failed},
         status = "game",
         version = R.version,
     }
@@ -260,7 +260,17 @@ local function new_round(success)
     R.info.pass = 0
     if success then
         R.info.round_success = R.info.round_success + 1
+        if R.info.round_success >= 3 then
+            log.printf('好人获得胜利 正-邪  %d-%d',R.info.round_success,R.info.round_failed);
+        end
+    else
+        R.info.round_failed = R.info.round_failed + 1
+        if R.info.round_failed >= 3 then
+            log.printf('坏人获得胜利 正-邪 %d-%d',R.info.round_success,R.info.round_failed);
+        end
     end
+
+    log.printf('游戏当前比分 正-邪 : %d-%d ',R.info.round_success,R.info.round_failed);
     new_pass()
 end
 
@@ -309,6 +319,7 @@ function api.begin_game(args)
             round = 1,          -- 第n轮
             pass =1,            -- 第n次提案
             round_success = 0,  -- 成功任务数
+            round_failed = 0,   -- 失败任务数
             rules = R.info.rules,
             leader = uidlist[math.random(#uidlist)],
             uidlist = uidlist,

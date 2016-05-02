@@ -181,7 +181,7 @@ input.room_number{
     display: block;
     float: left;
     width: 45%;
-    text-align: left;
+    text-align: center;
     padding: 3px;
 }
 
